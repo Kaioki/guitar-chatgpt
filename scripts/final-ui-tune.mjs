@@ -20,7 +20,8 @@ let dataSource = fs.readFileSync(dataPath,"utf8");
 const weeksMarker = "export const weeks =";
 const weeksStart = dataSource.indexOf(weeksMarker);
 const weeksOpen = dataSource.indexOf("[",weeksStart);
-const weeksClose = dataSource.indexOf("] as const;",weeksOpen);
+const repertoireStart = dataSource.indexOf("export const repertoire =",weeksOpen);
+const weeksClose = dataSource.lastIndexOf("]",repertoireStart);
 const planWeeks = JSON.parse(dataSource.slice(weeksOpen,weeksClose+1));
 const gwynSteps = [
 "Choisir une transcription légitime pour guitare acoustique six cordes. Vérifier accordage, tonalité, tessiture, difficulté des positions et si l’arrangement est réellement solo. Écarter toute version qui exige deux guitares simultanées.",
