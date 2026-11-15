@@ -154,3 +154,5 @@ let readme = read("README.md")
 readme += "\n\n## Organisation instrumentale\n\nLe tronc commun et la spécialisation acoustique privilégient des morceaux réalisables sur guitare acoustique, avec des arrangements solo lorsque l’original utilise plusieurs instruments. Un module électrique facultatif clôt le parcours (blocs 417 à 429) et rassemble les versions originales rock, les power chords, les étouffements, les riffs et le jeu lead. Le module classique commence dès le deuxième module, avec posture, attaque aux doigts, lecture en première position et premières phrases de Gymnopédie n° 1.\n\n**Gwyn, Lord of Cinder** (Dark Souls, Motoi Sakuraba) est ajouté au module 27 sous forme d’un arrangement acoustique solo avancé. Il faudra sélectionner une transcription adaptée et autorisée ; le parcours décrit le travail musical, sans reproduire de partition protégée.\n";
 write("README.md", readme);
 console.log("Curriculum transformed: 429 blocks, 33 phases, 58 repertoire entries.");
+
+// Trigger curriculum rebuild.
