@@ -20,7 +20,7 @@ let dataSource = fs.readFileSync(dataPath,"utf8");
 const weeksMarker = "export const weeks =";
 const weeksStart = dataSource.indexOf(weeksMarker);
 const weeksOpen = dataSource.indexOf("[",weeksStart);
-const weeksClose = dataSource.indexOf("\\n];",weeksOpen) + 1;
+const weeksClose = dataSource.indexOf("\n];",weeksOpen) + 1;
 if (weeksClose <= 0) throw new Error("Cannot locate end of weeks array");
 const planWeeks = JSON.parse(dataSource.slice(weeksOpen,weeksClose+1));
 const gwynSteps = [
