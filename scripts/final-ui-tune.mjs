@@ -1,6 +1,8 @@
 import fs from "node:fs";
 const p = "app/page.tsx";
-let source = fs.readFileSync(p,"utf8").replace("55 nouveaux titres et 2 morceaux déjà abordés","56 nouveaux titres et 2 morceaux déjà abordés");
+let source = fs.readFileSync(p,"utf8")
+ .replace("55 nouveaux titres et 2 morceaux déjà abordés","56 nouveaux titres et 2 morceaux déjà abordés")
+ .replace("56 nouveaux titres et 2 morceaux déjà abordés","64 nouveaux titres et 2 morceaux déjà abordés");
 const replacement = `const standardJourneys = [
  { standard: "Guitare classique", start: 14, end: 26, label: "Premiers pas classiques", badge: "Classique", heroLabel: "Tronc commun", summary: "Posture, attaque aux doigts, alternance, lecture en première position et première phrase de Gymnopédie n° 1." },
  { standard: "Premiers morceaux acoustiques", start: 27, end: 52, label: "Construire les fondations", badge: "Acoustique", heroLabel: "Tronc commun", summary: "Accords ouverts, changements fluides, arpèges et arrangements acoustiques complets." },
@@ -12,7 +14,9 @@ source = source.replace(/const standardJourneys = \[[\s\S]*?\] as const;/, repla
 if (!source.includes('standard: "Module électrique final"')) throw new Error("Dashboard journey insertion failed");
 fs.writeFileSync(p,source);
 const r = "README.md";
-let readme = fs.readFileSync(r,"utf8").replace("55 nouveaux titres souhaités et 2 déjà abordés","56 nouveaux titres souhaités et 2 déjà abordés");
+let readme = fs.readFileSync(r,"utf8")
+ .replace("55 nouveaux titres souhaités et 2 déjà abordés","56 nouveaux titres souhaités et 2 déjà abordés")
+ .replace("56 nouveaux titres souhaités et 2 déjà abordés","64 nouveaux titres souhaités et 2 déjà abordés");
 fs.writeFileSync(r,readme);
 
 console.log("Dashboard journeys and repertoire count updated.");
