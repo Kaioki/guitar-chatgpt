@@ -1572,7 +1572,7 @@ export default function Home() {
               </article>
             </section>
 
-            <section className="content-card"><div className="card-heading"><div><span className="eyebrow">Les morceaux d’Albert</span><h3>56 nouveaux titres et 2 morceaux déjà abordés</h3></div></div><p>Chaque cible dépend de la version retenue. La liste distingue partie principale et arrangement solo complet.</p><div className="repertoire-register">{repertoire.map(song=><details key={song.number}><summary>{song.title}</summary><p>{song.info}</p><p><strong>Cible : </strong>{song.target}</p><p>{song.level}</p></details>)}</div></section>
+            <section className="content-card"><div className="card-heading"><div><span className="eyebrow">Les morceaux d’Albert</span><h3>64 nouveaux titres et 2 morceaux déjà abordés</h3></div></div><p>Chaque cible dépend de la version retenue. La liste distingue partie principale et arrangement solo complet.</p><div className="repertoire-register">{repertoire.map(song=><details key={song.number}><summary>{song.title}</summary><p>{song.info}</p><p><strong>Cible : </strong>{song.target}</p><p>{song.level}</p></details>)}</div></section>
             <section className="final-outcome">
               <span className="eyebrow">Résultat attendu</span>
               <h2>
