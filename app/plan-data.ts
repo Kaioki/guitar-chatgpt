@@ -157,7 +157,7 @@ export const phases = [
     "number": 18,
     "weeks": "222 à 234",
     "title": "Faire grandir les textures de bande originale",
-    "focus": "The Night King ; Toss a Coin to Your Witcher ; In the Pool.",
+    "focus": "The Night King ; Dirtmouth (Hollow Knight) ; The Fields of Ard Skellig (The Witcher 3).",
     "gate": "Deux voix stables et lecture des formes à changements de mesure.",
     "year": 6,
     "track": "core"
@@ -166,7 +166,7 @@ export const phases = [
     "number": 19,
     "weeks": "235 à 247",
     "title": "Préparer les arpèges fluides de Zelda",
-    "focus": "Great Fairy Fountain.",
+    "focus": "Great Fairy Fountain ; Greenpath (Hollow Knight) ; Kaer Morhen (The Witcher 3).",
     "gate": "Mélodie au dessus de deux voix et démanchés prévisibles maîtrisés.",
     "year": 7,
     "track": "core"
@@ -175,7 +175,7 @@ export const phases = [
     "number": 20,
     "weeks": "248 à 260",
     "title": "Relier les trois thèmes de Clair Obscur",
-    "focus": "Lumière ; Lumière Lumière à l’Aube ; Alicia.",
+    "focus": "Lumière ; Lumière Lumière à l’Aube ; Alicia ; City of Tears (Hollow Knight) ; Geralt of Rivia (The Witcher 3).",
     "gate": "Arpèges continus et mélodie projetée sans tension.",
     "year": 7,
     "track": "core"
@@ -184,7 +184,7 @@ export const phases = [
     "number": 21,
     "weeks": "261 à 273",
     "title": "Décomposer Paranoid Android en arrangement acoustique",
-    "focus": "Paranoid Android : première moitié en arrangement solo acoustique, voix et transitions simplifiées.",
+    "focus": "Paranoid Android : première moitié en arrangement solo acoustique, voix et transitions simplifiées ; The Wolven Storm (The Witcher 3).",
     "gate": "Arpèges, changements de mesure et transitions comptés sur une carte.",
     "year": 7,
     "track": "core"
@@ -193,7 +193,7 @@ export const phases = [
     "number": 22,
     "weeks": "274 à 286",
     "title": "Achever Paranoid Android en guitare acoustique solo",
-    "focus": "Paranoid Android : seconde moitié puis intégrale en arrangement acoustique à une guitare.",
+    "focus": "Paranoid Android : seconde moitié puis intégrale en arrangement acoustique à une guitare ; White Palace (Hollow Knight).",
     "gate": "Première moitié continue, voix équilibrées et forme complète mémorisée.",
     "year": 8,
     "track": "core"
@@ -6372,6 +6372,62 @@ export const repertoire = [
     "info": "Chainsaw Man piste exacte à confirmer  •  Acoustique proposée  •  M18 S222 à S234",
     "target": "Arrangement guitare solo complet de la piste identifiée.",
     "level": "Classement provisoire."
+  },
+  {
+    "number": 47,
+    "title": "Dirtmouth",
+    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M18 S222 à S234",
+    "target": "Arrangement solo classique identifié ; travailler la mélodie chantante, les basses simples et les résonances sans accélérer.",
+    "level": "Intermédiaire estimé ; première pièce du bloc Hollow Knight, à confirmer sur la partition choisie."
+  },
+  {
+    "number": 48,
+    "title": "The Fields of Ard Skellig",
+    "info": "The Witcher 3: Wild Hunt OST  •  Arrangement guitare fingerstyle solo référencé  •  M18 S222 à S234",
+    "target": "Arrangement fingerstyle à une guitare ; stabiliser la basse, la mélodie et les harmoniques naturelles si présentes dans la transcription.",
+    "level": "Intermédiaire à intermédiaire avancé estimé ; difficulté dépendante de la version retenue."
+  },
+  {
+    "number": 49,
+    "title": "Greenpath",
+    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M19 S235 à S247",
+    "target": "Arrangement solo classique ; faire ressortir la ligne mélodique au-dessus de l’accompagnement et contrôler les changements de position.",
+    "level": "Intermédiaire avancé estimé ; progression après Dirtmouth."
+  },
+  {
+    "number": 50,
+    "title": "Kaer Morhen",
+    "info": "The Witcher 3: Wild Hunt OST  •  Arrangement guitare fingerstyle solo référencé  •  M19 S235 à S247",
+    "target": "Arrangement fingerstyle à une guitare ; lier arpèges, basses et mélodie avec un phrasé continu.",
+    "level": "Intermédiaire avancé estimé ; vérifier la tessiture et les doigtés de la transcription."
+  },
+  {
+    "number": 51,
+    "title": "City of Tears",
+    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M20 S248 à S260",
+    "target": "Arrangement solo classique ; équilibrer plusieurs voix, tenir les basses et conduire la mélodie sans couvrir les notes intérieures.",
+    "level": "Avancé estimé ; polyphonie et contrôle des voix à valider sur la partition."
+  },
+  {
+    "number": 52,
+    "title": "Geralt of Rivia",
+    "info": "The Witcher 3: Wild Hunt OST  •  Arrangement guitare fingerstyle solo référencé  •  M20 S248 à S260",
+    "target": "Arrangement fingerstyle à une guitare ; travailler les basses alternées, les changements d’accords et la continuité du thème.",
+    "level": "Avancé estimé ; classement provisoire selon la transcription retenue."
+  },
+  {
+    "number": 53,
+    "title": "The Wolven Storm (Priscilla’s Song)",
+    "info": "Marcin Przybyłowicz  •  The Witcher 3: Wild Hunt  •  Arrangement guitare solo fingerstyle référencé  •  M21 S261 à S273",
+    "target": "Arrangement solo complet à une guitare ; séparer accompagnement et mélodie chantée puis les réunir avec un équilibre dynamique.",
+    "level": "Avancé estimé ; arrangement solo publié, difficulté à confirmer sur l’édition retenue."
+  },
+  {
+    "number": 54,
+    "title": "White Palace",
+    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M22 S274 à S286",
+    "target": "Arrangement solo classique ; consolider les démanchés, les voix superposées et les transitions sur une forme continue.",
+    "level": "Avancé à avancé supérieur estimé ; dernière étape du bloc Hollow Knight."
   },
   {
     "number": 47,
