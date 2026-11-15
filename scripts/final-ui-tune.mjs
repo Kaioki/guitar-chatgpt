@@ -22,3 +22,5 @@ fs.writeFileSync(r,readme);
 console.log("Dashboard journeys and repertoire count updated.");
 
 // Trigger final dashboard rebuild.
+
+// Rebuild after repertoire numbering and soundtrack-credit corrections.
