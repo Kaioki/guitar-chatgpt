@@ -30,18 +30,18 @@ export const phases = [
   {
     "number": 4,
     "weeks": "40 à 52",
-    "title": "Conserver le rythme pendant les changements",
-    "focus": "Undone The Sweater Song ; Where Is My Mind ; There’s This Girl.",
-    "gate": "Six accords ouverts posés et deux changements propres à 50 bpm.",
+    "title": "Conserver la pulsation dans les changements d’accord acoustiques",
+    "focus": "Undone The Sweater Song ; Where Is My Mind ; There’s This Girl, en arrangements acoustiques pour une guitare.",
+    "gate": "Six accords ouverts propres et deux changements continus à 50 bpm.",
     "year": 2,
     "track": "core"
   },
   {
     "number": 5,
     "weeks": "53 à 65",
-    "title": "Contrôler power chords et étouffements",
-    "focus": "Need 2 ; Spit in My Face ; Babydoll.",
-    "gate": "Battue de croches et changements ouverts continus à faible tempo.",
+    "title": "Contrôler les rythmiques étouffées sur acoustique",
+    "focus": "Need 2 ; Spit in My Face ; Babydoll, adaptés en accompagnements acoustiques et rythmiques étouffées.",
+    "gate": "Croches régulières, changements ouverts continus et étouffements propres sans perte de volume.",
     "year": 2,
     "track": "core"
   },
@@ -84,9 +84,9 @@ export const phases = [
   {
     "number": 10,
     "weeks": "118 à 130",
-    "title": "Tenir une partie électrique complète",
-    "focus": "Reptilia partie rythmique ; Ode to the Mets ; The Adults Are Talking partie rythmique.",
-    "gate": "Barrés mobiles et croches contrôlés séparément.",
+    "title": "Construire un arrangement acoustique complet à plusieurs voix",
+    "focus": "Reptilia ; Ode to the Mets ; The Adults Are Talking, versions solo acoustiques simplifiées.",
+    "gate": "Basses, mélodie et rythme séparés puis assemblés sans chercher à reproduire deux guitares simultanément.",
     "year": 4,
     "track": "core"
   },
@@ -120,17 +120,17 @@ export const phases = [
   {
     "number": 14,
     "weeks": "170 à 182",
-    "title": "Aborder les accords de septième et la bossa",
-    "focus": "From the Start ; Duvet.",
-    "gate": "Barrés, basse alternée et une syncope maîtrisés séparément.",
+    "title": "Aborder les accords de septième et la bossa acoustique",
+    "focus": "From the Start ; Duvet en arrangement acoustique solo, avec basse alternée et mélodie.",
+    "gate": "Barrés, basse alternée et syncope maîtrisés séparément.",
     "year": 5,
     "track": "core"
   },
   {
     "number": 15,
     "weeks": "183 à 195",
-    "title": "Démêler les arpèges rythmiques de Radiohead",
-    "focus": "Let Down ; Knives Out ; Jigsaw Falling Into Place.",
+    "title": "Démêler les arpèges rythmiques et le fingerstyle",
+    "focus": "Let Down ; Knives Out ; Jigsaw Falling Into Place, arrangements acoustiques à une guitare.",
     "gate": "Triades mobiles, syncopes et arpèges sur deux voix automatisés.",
     "year": 5,
     "track": "core"
@@ -138,9 +138,9 @@ export const phases = [
   {
     "number": 16,
     "weeks": "196 à 208",
-    "title": "Développer le jeu lead et les articulations électriques",
-    "focus": "Just ; Reptilia partie lead ; The Adults Are Talking partie lead.",
-    "gate": "Une partie rythmique complète de Reptilia et des Strokes validée.",
+    "title": "Développer les lignes mélodiques et articulations acoustiques",
+    "focus": "Just ; Reptilia ; The Adults Are Talking, arrangements acoustiques mélodiques sans amplification.",
+    "gate": "Partie acoustique complète validée ; chaque ligne mélodique est préparée séparément.",
     "year": 6,
     "track": "core"
   },
@@ -183,18 +183,18 @@ export const phases = [
   {
     "number": 21,
     "weeks": "261 à 273",
-    "title": "Décomposer Paranoid Android",
-    "focus": "Paranoid Android première moitié.",
-    "gate": "Arpèges de Radiohead et changements de mesure comptés sur une carte.",
+    "title": "Décomposer Paranoid Android en arrangement acoustique",
+    "focus": "Paranoid Android : première moitié en arrangement solo acoustique, voix et transitions simplifiées.",
+    "gate": "Arpèges, changements de mesure et transitions comptés sur une carte.",
     "year": 7,
     "track": "core"
   },
   {
     "number": 22,
     "weeks": "274 à 286",
-    "title": "Achever Paranoid Android et consolider Radiohead",
-    "focus": "Paranoid Android seconde moitié et intégrale.",
-    "gate": "Première moitié de Paranoid Android continue avec sa partie choisie.",
+    "title": "Achever Paranoid Android en guitare acoustique solo",
+    "focus": "Paranoid Android : seconde moitié puis intégrale en arrangement acoustique à une guitare.",
+    "gate": "Première moitié continue, voix équilibrées et forme complète mémorisée.",
     "year": 8,
     "track": "core"
   },
@@ -297,7 +297,7 @@ export const phases = [
     "year": 11,
     "track": "specialization"
   }
-] as const;
+];
 
 export const weeks = [
   {
@@ -5877,7 +5877,7 @@ export const weeks = [
     "moduleTitle": "Module final — guitare électrique, rock et lead",
     "year": 11
   }
-] as const;
+];
 
 export const guide = {
   "principle": "Une difficulté de geste nouvelle à la fois. Si une main apprend, l’autre garde un geste simple et déjà connu.",
@@ -6438,23 +6438,23 @@ export const repertoire = [
   },
   {
     "number": 56,
+    "title": "Gwyn, Lord of Cinder",
+    "info": "Motoi Sakuraba — Dark Souls • Acoustique • M27 S339 à S351",
+    "target": "Arrangement solo acoustique : thème mélodique, basses et accords répartis en voix séparées avant assemblage. Choisir une transcription légitime adaptée à six cordes.",
+    "level": "Avancé ; la difficulté dépend de l’arrangement, des positions et de la polyphonie."
+  },
+  {
+    "number": 57,
     "title": "Asturias",
     "info": "Isaac Albéniz Leyenda  •  Acoustique adaptée à l’édition  •  M28 S352 à S364 ; M29 S365 à S377 ; M30 S378 à S390",
     "target": "Transcription intégrale avec section centrale et reprise.",
     "level": "Avancé."
   },
   {
-    "number": 57,
+    "number": 58,
     "title": "La Campanella",
     "info": "Franz Liszt S 141 n° 3 d’après Paganini  •  Instrument imposé par la transcription  •  M31 S391 à S403 ; M32 S404 à S416",
     "target": "Transcription guitare annoncée et auditée ; intégralité à vérifier.",
     "level": "Très variable et potentiellement virtuose."
-  },
-  {
-    "number": 58,
-    "title": "Gwyn, Lord of Cinder",
-    "info": "Motoi Sakuraba — Dark Souls • Acoustique • M27 S339 à S351",
-    "target": "Arrangement solo acoustique : thème mélodique, basses et accords répartis en voix séparées avant assemblage. Choisir une transcription légitime adaptée à six cordes.",
-    "level": "Avancé ; la difficulté dépend de l’arrangement, des positions et de la polyphonie."
   }
-] as const;
+];

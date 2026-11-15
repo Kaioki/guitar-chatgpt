@@ -4,7 +4,7 @@ import { trackProgress } from '../app/progress.ts';
 import { isGuitarBackup, APP_ID } from '../app/backup-validation.ts';
 import { weeks, phases, repertoire } from '../app/plan-data.ts';
 import { buildBackupFilename } from '../app/backup-filename.ts';
-test('429 ordered blocks contain technical and repertoire instructions with the 312/104 boundary',()=>{
+test('429 ordered blocks contain technical and repertoire instructions with the 312/117 boundary',()=>{
  assert.deepEqual(weeks.map(w=>w.number),Array.from({length:429},(_,i)=>i+1));
  assert.equal(phases.length,33); assert.equal(repertoire.length,58);
  assert.ok(weeks.every(w=>w.work&&w.repertoire&&w.ear&&w.validation));
