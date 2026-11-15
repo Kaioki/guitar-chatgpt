@@ -8,7 +8,7 @@ const replacement = `const standardJourneys = [
  { standard: "Spécialisation classique", start: 313, end: 416, label: "Après le tronc commun", badge: "Spécialisation", heroLabel: "Spécialisation classique", summary: "Clair de lune, Gwyn, Asturias et La Campanella : gestes préparés, transcription précise et validation au rythme d’Albert." },
  { standard: "Module électrique final", start: 417, end: 429, label: "Option rock et électrique", badge: "Électrique", heroLabel: "Module final facultatif", summary: "Versions originales rock, riffs, power chords, étouffements, articulations et jeu lead." },
 ] as const;`;
-source = source.replace(/const standardJourneys = \\[[\\s\\S]*?\\] as const;/, replacement);
+source = source.replace(/const standardJourneys = \[[\s\S]*?\] as const;/, replacement);
 if (!source.includes('standard: "Module électrique final"')) throw new Error("Dashboard journey insertion failed");
 fs.writeFileSync(p,source);
 const r = "README.md";
