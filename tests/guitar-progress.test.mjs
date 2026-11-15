@@ -8,6 +8,7 @@ test('429 ordered blocks contain technical and repertoire instructions with the 
  assert.deepEqual(weeks.map(w=>w.number),Array.from({length:429},(_,i)=>i+1));
  assert.equal(phases.length,33); assert.equal(repertoire.length,66); assert.deepEqual(repertoire.map(r=>r.number),Array.from({length:66},(_,i)=>i+1));
  assert.ok(weeks.every(w=>w.work&&w.repertoire&&w.ear&&w.validation));
+ const gym= repertoire.find(r=>r.title==='Gymnopédie n° 1'); assert.match(gym.info,/M2 S14 à S26/); assert.match(gym.info,/M23 S287 à S299/);
  assert.equal(weeks[311].moduleNumber,24);assert.equal(weeks[312].moduleNumber,25);assert.equal(weeks[416].moduleNumber,33);
 });
 test('mastery percentages use only the appropriate blocks and remain independent',()=>{
