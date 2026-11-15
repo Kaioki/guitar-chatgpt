@@ -20,8 +20,8 @@ let dataSource = fs.readFileSync(dataPath,"utf8");
 const weeksMarker = "export const weeks =";
 const weeksStart = dataSource.indexOf(weeksMarker);
 const weeksOpen = dataSource.indexOf("[",weeksStart);
-const repertoireStart = dataSource.indexOf("export const repertoire =",weeksOpen);
-const weeksClose = dataSource.lastIndexOf("]",repertoireStart);
+const weeksClose = dataSource.indexOf("\\n];",weeksOpen) + 1;
+if (weeksClose <= 0) throw new Error("Cannot locate end of weeks array");
 const planWeeks = JSON.parse(dataSource.slice(weeksOpen,weeksClose+1));
 const gwynSteps = [
 "Choisir une transcription légitime pour guitare acoustique six cordes. Vérifier accordage, tonalité, tessiture, difficulté des positions et si l’arrangement est réellement solo. Écarter toute version qui exige deux guitares simultanées.",
@@ -41,7 +41,7 @@ const gwynSteps = [
 for (let i=0;i<13;i++) {
   planWeeks[338+i].repertoire = "Gwyn, Lord of Cinder — " + gwynSteps[i];
 }
-dataSource = dataSource.slice(0,weeksOpen) + JSON.stringify(planWeeks,null,2) + dataSource.slice(weeksClose+10);
+dataSource = dataSource.slice(0,weeksOpen) + JSON.stringify(planWeeks,null,2) + dataSource.slice(weeksClose+2);
 fs.writeFileSync(dataPath,dataSource);
 
 console.log("Dashboard journeys and repertoire count updated.");
