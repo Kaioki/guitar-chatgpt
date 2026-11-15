@@ -12,17 +12,17 @@ export const phases = [
   {
     "number": 2,
     "weeks": "14 à 26",
-    "title": "Jouer des lignes simples sur électrique",
-    "focus": "I Wanna Be Yours ; Apocalypse ; Cry.",
-    "gate": "Alternance i m et pouce isolé stables sur huit mesures.",
+    "title": "Entrer dans la guitare classique et lire une première pièce",
+    "focus": "Posture classique, attaque au doigt, alternance i-m, pouce, lecture en première position et premières phrases de Gymnopédie n° 1.",
+    "gate": "Son propre sur chaque corde, alternance i-m régulière, pouce indépendant et première phrase classique continue à tempo lent.",
     "year": 1,
     "track": "core"
   },
   {
     "number": 3,
     "weeks": "27 à 39",
-    "title": "Installer les accords ouverts et le premier fingerpicking",
-    "focus": "The Moon Song ; Someday I’ll Get It ; Pretend.",
+    "title": "Installer les accords ouverts et le fingerstyle acoustique",
+    "focus": "The Moon Song ; Someday I’ll Get It ; Pretend, en arrangements acoustiques.",
     "gate": "Deux cordes au médiator sans perte de pulsation et Am C préparés sans rythme.",
     "year": 1,
     "track": "core"
@@ -202,7 +202,7 @@ export const phases = [
     "number": 23,
     "weeks": "287 à 299",
     "title": "Interpréter Gymnopédie numéro 1",
-    "focus": "Gymnopédie n° 1.",
+    "focus": "Gymnopédie n° 1 : transcription acoustique complète, voix séparées puis polyphonie.",
     "gate": "Voix indépendantes et lecture en première et cinquième positions.",
     "year": 8,
     "track": "core"
@@ -211,7 +211,7 @@ export const phases = [
     "number": 24,
     "weeks": "300 à 312",
     "title": "Chanter une sérénade et une valse à la guitare",
-    "focus": "Sérénade Schubert ; The Second Waltz.",
+    "focus": "Sérénade de Schubert ; The Second Waltz ; consolidation du répertoire classique acoustique.",
     "gate": "Gymnopédie complète à tempo de travail et phrasé lisible.",
     "year": 8,
     "track": "core"
@@ -238,8 +238,8 @@ export const phases = [
     "number": 27,
     "weeks": "339 à 351",
     "title": "Préparer les exigences classiques avancées",
-    "focus": "Études préparatoires choisies dans Cottin et le répertoire gradué.",
-    "gate": "Clair de lune complète au tempo de travail et changements de texture autonomes.",
+    "focus": "Gwyn, Lord of Cinder en arrangement acoustique avancé ; études préparatoires pour Asturias.",
+    "gate": "Gymnopédie et Clair de lune au tempo de travail ; arrangement acoustique de Gwyn cartographié, doigtés et voix séparés avant assemblage.",
     "year": 9,
     "track": "specialization"
   },
@@ -285,6 +285,15 @@ export const phases = [
     "title": "Achever La Campanella et devenir autonome",
     "focus": "La Campanella seconde moitié et intégrale.",
     "gate": "Première moitié stable et chaque geste spécifique de la transcription validé séparément.",
+    "year": 11,
+    "track": "specialization"
+  },
+  {
+    "number": 33,
+    "weeks": "417 à 429",
+    "title": "Module final facultatif : guitare électrique, rock et lead",
+    "focus": "Versions électriques originales de I Wanna Be Yours, Apocalypse, Cry, Reptilia, The Adults Are Talking, Duvet, Just, Paranoid Android et autres titres rock du répertoire.",
+    "gate": "Fondations rythmiques et acoustiques solides ; riffs, étouffements, power chords et parties lead travaillés séparément avant le morceau entier.",
     "year": 11,
     "track": "specialization"
   }
@@ -463,170 +472,170 @@ export const weeks = [
   {
     "id": "S14",
     "number": 14,
-    "title": "Vérifier les acquis et préparer le module",
-    "objective": "Vérifier les acquis et préparer le module.",
-    "work": "Reprendre l’exercice central du module précédent au dernier tempo propre, huit mesures ou six cellules. Fixer la version des titres à venir et vérifier le prérequis écrit.",
-    "repertoire": "I Wanna Be Yours : Fixer la version et la carte P1 à P4. Écouter, frapper le rythme et apprendre deux cellules de P1 à une voix ; ne jouer aucun geste encore fermé.",
-    "ear": "Nommer les notes des trois cases réellement utilisées.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Établir la position classique",
+    "objective": "Établir la position classique.",
+    "work": "Installer une posture stable : guitare sur la jambe gauche ou support adapté, manche légèrement relevé, épaules relâchées. Jouer quatre cordes à vide avec p puis i, sans crispation.",
+    "repertoire": "Gymnopédie n° 1 : écouter la version retenue, repérer la tonalité et chanter le début. Ne pas chercher à jouer toute la pièce.",
+    "ear": "Compter quatre temps réguliers et identifier les cordes à vide à l’oreille.",
+    "validation": "Posture confortable pendant cinq minutes ; quatre cordes jouées sans bruit parasite.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S15",
     "number": 15,
-    "title": "Prendre le médiator",
-    "objective": "Prendre le médiator.",
-    "work": "Corde 1 à vide, huit mesures de noires vers le bas à 50 bpm ; garder la même profondeur d’attaque.",
-    "repertoire": "I Wanna Be Yours : Achever les cellules de P1 puis celles de P2, séparément ; assembler P1 et P2 au tempo lent, sans ajouter une nouvelle technique.",
-    "ear": "Chanter deux sons du motif avant de les chercher sur une corde.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Différencier pouce et doigts",
+    "objective": "Différencier pouce et doigts.",
+    "work": "Sur cordes 6 à 4, jouer p en noires ; sur cordes 3 à 1, jouer i-m alternés. Faire quatre séries lentes, main droite immobile entre les attaques.",
+    "repertoire": "Relever les trois premières notes de la mélodie de Gymnopédie et les chanter avant de les jouer sur une seule corde.",
+    "ear": "Lire les notes mi-fa-sol sur la première corde, cases 0-1-3.",
+    "validation": "Pouce stable et alternance i-m sans accélération sur huit mesures.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S16",
     "number": 16,
-    "title": "Faire un aller retour",
-    "objective": "Faire un aller retour.",
-    "work": "Même corde, alterner bas haut en noires, huit mesures ; la gauche ne joue pas.",
-    "repertoire": "I Wanna Be Yours : Apprendre de la même façon P3 puis P4, cellule par cellule ; répéter six fois la jonction P2 vers P3.",
-    "ear": "Lire quatre noires puis une blanche et deux noires en frappant les mains.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Produire une attaque classique nette",
+    "objective": "Produire une attaque classique nette.",
+    "work": "Sur une corde à vide, comparer attaque avec appui et sans appui ; choisir le geste qui donne un son rond et régulier. Faire trois séries de huit notes.",
+    "repertoire": "Jouer la mélodie seule de la première phrase de Gymnopédie, sans accompagnement, à 40-50 bpm.",
+    "ear": "Distinguer mélodie et accompagnement dans l’enregistrement.",
+    "validation": "Huit notes consécutives de même volume ; phrase mélodique sans arrêt.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S17",
     "number": 17,
-    "title": "Changer de corde adjacente",
-    "objective": "Changer de corde adjacente.",
-    "work": "Cordes 1 puis 2 à vide, quatre noires sur chacune ; huit allers retours sans accrocher la troisième.",
-    "repertoire": "I Wanna Be Yours : Assembler P1 à P4 avec toutes les reprises prévues ; corriger deux raccords prioritaires, puis avancer vers le tempo de référence par petits paliers.",
-    "ear": "Nommer les notes des trois cases réellement utilisées.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Lire en première position",
+    "objective": "Lire en première position.",
+    "work": "Lire les notes naturelles des cordes 1 et 2 jusqu’à la case 3. Dire le nom de la note, la jouer, puis vérifier à l’accordeur si nécessaire.",
+    "repertoire": "Travailler la deuxième phrase de Gymnopédie en notes seules ; assembler les deux phrases au tempo le plus lent propre.",
+    "ear": "Frapper le rythme avant de jouer ; repérer les valeurs longues et les silences.",
+    "validation": "Deux phrases enchaînées avec doigtés notés et rythme respecté.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S18",
     "number": 18,
-    "title": "Poser deux notes",
-    "objective": "Poser deux notes.",
-    "work": "Corde 1 cases 5 et 7 avec doigts 1 et 3 ; deux noires par note, huit motifs à 50 bpm.",
-    "repertoire": "Apocalypse : Fixer la version et la carte P1 à P4. Écouter, frapper le rythme et apprendre deux cellules de P1 à une voix ; ne jouer aucun geste encore fermé.",
-    "ear": "Chanter deux sons du motif avant de les chercher sur une corde.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Indépendance du pouce",
+    "objective": "Indépendance du pouce.",
+    "work": "Sur Am puis Em, jouer p sur la basse au temps 1 et i-m sur les aigus aux temps 2 et 3. Garder les autres temps silencieux.",
+    "repertoire": "Ajouter une basse simple à la première phrase de Gymnopédie, uniquement lorsque la mélodie est stable.",
+    "ear": "Écouter si la basse reste régulière sous la mélodie.",
+    "validation": "Huit mesures sans que la basse accélère ni couvre la mélodie.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S19",
     "number": 19,
-    "title": "Consolider avant de réunir",
-    "objective": "Consolider avant de réunir.",
-    "work": "Reprendre séparément les quatre exercices des semaines 15 à 18, au même tempo. Garder seulement celui qui reste irrégulier ; aucune difficulté nouvelle.",
-    "repertoire": "Apocalypse : Achever les cellules de P1 puis celles de P2, séparément ; assembler P1 et P2 au tempo lent, sans ajouter une nouvelle technique.",
-    "ear": "Lire quatre noires puis une blanche et deux noires en frappant les mains.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Former un arpège p-i-m-a",
+    "objective": "Former un arpège p-i-m-a.",
+    "work": "Sur Am, jouer p5-i3-m2-a1 puis revenir a-m-i ; quatre cycles à 45 bpm. Vérifier chaque corde séparément.",
+    "repertoire": "Travailler la phrase suivante de Gymnopédie en arpège très simplifié ; ne conserver que les notes compatibles avec la main.",
+    "ear": "Nommer les doigts p-i-m-a et les cordes correspondantes.",
+    "validation": "Quatre cycles continus avec volume équilibré et aucun doigt qui se crispe.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S20",
     "number": 20,
-    "title": "Éteindre une corde",
-    "objective": "Éteindre une corde.",
-    "work": "Après une noire corde 1, poser doucement la droite pour trois temps de silence ; huit mesures.",
-    "repertoire": "Apocalypse : Apprendre de la même façon P3 puis P4, cellule par cellule ; répéter six fois la jonction P2 vers P3.",
-    "ear": "Nommer les notes des trois cases réellement utilisées.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Contrôler deux voix",
+    "objective": "Contrôler deux voix.",
+    "work": "Jouer une basse tenue puis une mélodie en notes séparées. Commencer par deux mesures, puis quatre ; ralentir si une voix disparaît.",
+    "repertoire": "Assembler basse et mélodie sur quatre mesures de Gymnopédie. Enregistrer une prise courte et noter la voix qui manque de stabilité.",
+    "ear": "Écouter séparément la ligne grave puis la ligne aiguë.",
+    "validation": "Quatre mesures où les deux voix restent audibles et indépendantes.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S21",
     "number": 21,
-    "title": "Relier deux cordes",
-    "objective": "Relier deux cordes.",
-    "work": "Corde 2 cases 5 et 7 puis corde 1 case 5 ; trois noires et un soupir, huit mesures.",
-    "repertoire": "Apocalypse : Assembler P1 à P4 avec toutes les reprises prévues ; corriger deux raccords prioritaires, puis avancer vers le tempo de référence par petits paliers.",
-    "ear": "Chanter deux sons du motif avant de les chercher sur une corde.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Articuler legato et notes détachées",
+    "objective": "Articuler legato et notes détachées.",
+    "work": "Sur une petite gamme de Do majeur, jouer deux notes liées puis deux notes détachées. Garder le même tempo et le même volume.",
+    "repertoire": "Reprendre les phrases déjà apprises de Gymnopédie en soignant les fins de notes et les respirations.",
+    "ear": "Repérer les fins de phrase dans l’enregistrement et les chanter.",
+    "validation": "Deux contrastes d’articulation identifiables sans rupture de pulsation.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S22",
     "number": 22,
-    "title": "Doser deux nuances",
-    "objective": "Doser deux nuances.",
-    "work": "Même motif connu, une mesure douce puis une mesure moyenne ; huit couples sans augmenter le gain.",
-    "repertoire": "Cry : Fixer la version et la carte P1 à P4. Écouter, frapper le rythme et apprendre deux cellules de P1 à une voix ; ne jouer aucun geste encore fermé.",
-    "ear": "Lire quatre noires puis une blanche et deux noires en frappant les mains.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Déplacer la main sans tension",
+    "objective": "Déplacer la main sans tension.",
+    "work": "Déplacer la main gauche entre cases 1 et 3 sur les cordes aiguës ; anticiper le doigt suivant et relâcher la pression après chaque note.",
+    "repertoire": "Apprendre le raccord entre deux phrases de Gymnopédie ; isoler le déplacement puis l’intégrer à la mélodie.",
+    "ear": "Lire le doigté à voix haute avant de jouer le raccord.",
+    "validation": "Dix déplacements propres sur dix, sans bruit de glissé involontaire.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S23",
     "number": 23,
-    "title": "Transférer le geste dans une seconde cellule",
-    "objective": "Transférer le geste dans une seconde cellule.",
-    "work": "Reprendre « doser deux nuances » avec le même dosage. Appliquer ensuite ce geste à deux cellules déjà apprises du répertoire, tempo inchangé.",
-    "repertoire": "Cry : Achever les cellules de P1 puis celles de P2, séparément ; assembler P1 et P2 au tempo lent, sans ajouter une nouvelle technique.",
-    "ear": "Nommer les notes des trois cases réellement utilisées.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Équilibrer mélodie et accompagnement",
+    "objective": "Équilibrer mélodie et accompagnement.",
+    "work": "Jouer la basse à volume doux et la mélodie à volume moyen. Alterner trois essais en exagérant puis réduire l’écart.",
+    "repertoire": "Ajouter progressivement les notes d’accompagnement prévues par l’arrangement de Gymnopédie ; ne pas remplir les silences.",
+    "ear": "Identifier à l’écoute quelle voix porte le thème.",
+    "validation": "Mélodie clairement dominante sans basse accentuée involontairement.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S24",
     "number": 24,
-    "title": "Avancer au tempo par petits paliers",
-    "objective": "Avancer au tempo par petits paliers.",
-    "work": "Reprendre le dernier exercice propre puis ajouter 2 bpm après trois répétitions réussies. S’arrêter au premier défaut et noter le dernier tempo stable ; ne pas allonger en même temps.",
-    "repertoire": "Cry : Apprendre de la même façon P3 puis P4, cellule par cellule ; répéter six fois la jonction P2 vers P3.",
-    "ear": "Chanter deux sons du motif avant de les chercher sur une corde.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Stabiliser le tempo",
+    "objective": "Stabiliser le tempo.",
+    "work": "Travailler deux mesures avec métronome, puis les rejouer sans clic. Comparer la durée et corriger uniquement le point de dérive.",
+    "repertoire": "Assembler les sections étudiées de Gymnopédie à tempo lent ; marquer les endroits qui nécessitent encore une reprise isolée.",
+    "ear": "Frapper le rythme de la pièce en comptant les subdivisions.",
+    "validation": "Deux passages continus au même tempo, sans accélération finale.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S25",
     "number": 25,
-    "title": "Donner une continuité musicale",
-    "objective": "Donner une continuité musicale.",
-    "work": "Garder le geste et le tempo déjà validés. Enchaîner les phrases connues, faire ressortir le chant ou le riff et préparer les changements de section ; pas de nouvelle technique.",
-    "repertoire": "Cry : Assembler P1 à P4 avec toutes les reprises prévues ; corriger deux raccords prioritaires, puis avancer vers le tempo de référence par petits paliers.",
-    "ear": "Lire quatre noires puis une blanche et deux noires en frappant les mains.",
-    "validation": "Dosage technique réussi et périmètre musical accessible fixé en A continu au tempo noté, lors de deux jours. Aucun arrêt pour chercher un doigté ; critères de son et de pulsation respectés.",
+    "title": "Construire une interprétation",
+    "objective": "Construire une interprétation.",
+    "work": "Faire une prise de la pièce travaillée. Réécouter en notant seulement trois critères : continuité, équilibre des voix, qualité du son.",
+    "repertoire": "Jouer les phrases maîtrisées de Gymnopédie avec nuances sobres ; ne pas augmenter le tempo pour masquer une faiblesse.",
+    "ear": "Chanter le thème sans guitare, puis le retrouver sur le manche.",
+    "validation": "Prise enregistrée et trois corrections concrètes formulées.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
     "id": "S26",
     "number": 26,
-    "title": "Valider le module sur deux jours",
-    "objective": "Valider le module sur deux jours.",
-    "work": "Refaire deux exercices représentatifs du module avec le dosage d’origine. Vérifier le geste, le son et le tempo sur deux jours distincts avant d’ouvrir la difficulté suivante.",
-    "repertoire": "Valider les cibles du module : I Wanna Be Yours ; Apocalypse ; Cry. Deux prises complètes par cible sur deux jours, au tempo de référence ; répéter le module si nécessaire.",
-    "ear": "Nommer les notes des trois cases réellement utilisées.",
-    "validation": "Les exercices et toutes les cibles de répertoire du module satisfont le feu vert sur deux jours. Sinon, reprendre les cellules qui résistent et conserver le même bloc.",
+    "title": "Valider les fondations classiques",
+    "objective": "Valider les fondations classiques.",
+    "work": "Reprendre posture, attaques, alternance, arpège et raccords. Faire une courte série de chaque, sans accumuler de répétitions fatigantes.",
+    "repertoire": "Enregistrer le périmètre réellement acquis de Gymnopédie ; noter la mesure exacte où reprendre au prochain bloc.",
+    "ear": "Écouter la prise et identifier une réussite ainsi qu’un axe de travail.",
+    "validation": "Deux prises propres sur deux jours ; aucun passage non maîtrisé déclaré acquis.",
     "moduleNumber": 2,
-    "moduleTitle": "Jouer des lignes simples sur électrique",
+    "moduleTitle": "Entrer dans la guitare classique et lire une première pièce",
     "year": 1
   },
   {
@@ -5698,6 +5707,175 @@ export const weeks = [
     "moduleNumber": 32,
     "moduleTitle": "Achever La Campanella et devenir autonome",
     "year": 11
+  },
+  {
+    "id": "S417",
+    "number": 417,
+    "title": "Auditer la guitare électrique et le son",
+    "objective": "Auditer la guitare électrique et le son.",
+    "work": "Brancher l’instrument à faible volume. Régler un son clair, vérifier accordage, hauteur de sangle et position du câble. Enregistrer une note tenue puis une série de huit noires.",
+    "repertoire": "Écouter les parties électriques originales du répertoire retenu. Choisir une première partie rythmique et relever sa forme sans chercher à la jouer.",
+    "ear": "Distinguer son clair, saturation et bruit parasite ; identifier les six cordes.",
+    "validation": "Instrument accordé, volume maîtrisé et prise sans bruit de manipulation.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S418",
+    "number": 418,
+    "title": "Stabiliser l’aller-retour",
+    "objective": "Stabiliser l’aller-retour.",
+    "work": "Sur corde 6 à vide, alterner médiator bas-haut en croches à 50 bpm pendant huit mesures. Garder une amplitude minimale.",
+    "repertoire": "Choisir un riff de I Wanna Be Yours ou Where Is My Mind. Le découper en cellules de deux temps et le jouer sur une seule corde si nécessaire.",
+    "ear": "Frapper les croches en comptant 1-et-2-et.",
+    "validation": "Huit mesures régulières sans accrocher les cordes voisines.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S419",
+    "number": 419,
+    "title": "Installer les power chords",
+    "objective": "Installer les power chords.",
+    "work": "Former une quinte sur cordes 6-5 puis 5-4. Jouer deux attaques, étouffer, puis laisser deux temps de silence. Vérifier l’absence de cordes ouvertes.",
+    "repertoire": "Appliquer les power chords à une cellule du morceau choisi ; ne pas accélérer tant que les changements sont imprécis.",
+    "ear": "Écouter la différence entre accord ouvert et quinte étouffée.",
+    "validation": "Dix changements propres avec silence net entre les attaques.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S420",
+    "number": 420,
+    "title": "Contrôler le palm mute",
+    "objective": "Contrôler le palm mute.",
+    "work": "Poser le bord de la main droite près du chevalet. Comparer son étouffé et son ouvert sur une même corde ; déplacer la main par petits millimètres.",
+    "repertoire": "Travailler une cellule rythmique de Reptilia ou The Adults Are Talking en alternant notes étouffées et ouvertes.",
+    "ear": "Identifier les accents et les silences du riff original.",
+    "validation": "Contraste audible et tempo stable sur huit mesures.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S421",
+    "number": 421,
+    "title": "Traverser les cordes sans parasite",
+    "objective": "Traverser les cordes sans parasite.",
+    "work": "Jouer une séquence de deux notes sur cordes adjacentes avec aller-retour. Préparer le déplacement du médiator avant le changement de corde.",
+    "repertoire": "Apprendre une cellule de riff en conservant les cordes non jouées étouffées par les deux mains.",
+    "ear": "Repérer la direction du contour mélodique avant de jouer.",
+    "validation": "Huit répétitions sans corde parasite ni arrêt.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S422",
+    "number": 422,
+    "title": "Construire un riff complet",
+    "objective": "Construire un riff complet.",
+    "work": "Assembler quatre cellules déjà travaillées ; jouer à 60 % du tempo de référence puis enregistrer. Marquer les accents et les reprises.",
+    "repertoire": "Travailler le riff principal de Reptilia ou Duvet, partie par partie ; ne pas mélanger rythmique et lead.",
+    "ear": "Écouter le riff puis chanter son rythme sans instrument.",
+    "validation": "Forme complète reconnaissable à tempo lent.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S423",
+    "number": 423,
+    "title": "Préparer les bends et le vibrato",
+    "objective": "Préparer les bends et le vibrato.",
+    "work": "Sur une corde aiguë, travailler une petite pré-déformation contrôlée puis relâcher. N’ajouter les bends qu’après vérification de la hauteur cible à l’accordeur.",
+    "repertoire": "Choisir un seul ornement d’une partie lead ; si aucun bend n’est nécessaire, travailler une liaison ou un vibrato léger.",
+    "ear": "Comparer la note cible jouée directement et atteinte par bend.",
+    "validation": "Hauteur cible juste et geste sans douleur ; sinon reporter le bend.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S424",
+    "number": 424,
+    "title": "Articuler hammer-on et pull-off",
+    "objective": "Articuler hammer-on et pull-off.",
+    "work": "Sur une paire de cases adjacentes, jouer une note puis hammer-on et pull-off lentement. Garder un volume homogène sans forcer.",
+    "repertoire": "Appliquer l’articulation à une courte phrase lead de Just ou The Adults Are Talking, si la transcription l’exige.",
+    "ear": "Reconnaître à l’écoute une note attaquée et une note liée.",
+    "validation": "Huit groupes réguliers avec notes audibles et sans tension.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S425",
+    "number": 425,
+    "title": "Travailler les changements de position",
+    "objective": "Travailler les changements de position.",
+    "work": "Jouer une phrase de trois notes, déplacer la main entière puis reprendre. Relâcher avant le déplacement et garder le pouce mobile.",
+    "repertoire": "Apprendre la deuxième cellule du solo choisi ; noter doigtés et positions pour éviter les déplacements improvisés.",
+    "ear": "Chanter la phrase avant de la retrouver sur le manche.",
+    "validation": "Dix déplacements anticipés sans perte de pulsation.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S426",
+    "number": 426,
+    "title": "Séparer rythmique et lead",
+    "objective": "Séparer rythmique et lead.",
+    "work": "Jouer la partie rythmique seule, puis la lead seule. Marquer les mesures de repos et les entrées ; ne jamais superposer deux parties impossibles à jouer simultanément.",
+    "repertoire": "Choisir une partie complète de Reptilia, Duvet ou Paranoid Android et définir précisément le périmètre d’une seule guitare.",
+    "ear": "Écouter l’arrangement et repérer les couches qui doivent être simplifiées.",
+    "validation": "Carte de forme écrite et partie choisie jouable seule.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S427",
+    "number": 427,
+    "title": "Assembler le premier morceau",
+    "objective": "Assembler le premier morceau.",
+    "work": "Travailler P1-P2 puis P3-P4, six répétitions de chaque raccord. Enregistrer une prise à tempo réduit et noter le dernier passage instable.",
+    "repertoire": "Assembler la version électrique choisie sur toute sa forme, reprises comprises. Garder les silences et les transitions.",
+    "ear": "Compter les mesures et annoncer les entrées avant chaque section.",
+    "validation": "Un morceau entier joué lentement sans saut de section.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S428",
+    "number": 428,
+    "title": "Approcher le tempo de référence",
+    "objective": "Approcher le tempo de référence.",
+    "work": "Augmenter de 2 bpm seulement après trois prises propres. Revenir au tempo précédent au premier défaut ; ne pas augmenter durée et vitesse en même temps.",
+    "repertoire": "Reprendre le morceau entier ; corriger deux passages maximum par séance puis refaire une prise complète.",
+    "ear": "Écouter si le groove reste identique quand le tempo augmente.",
+    "validation": "Deux prises propres au tempo de travail consigné.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
+  },
+  {
+    "id": "S429",
+    "number": 429,
+    "title": "Enregistrer et valider le module",
+    "objective": "Enregistrer et valider le module.",
+    "work": "Faire une prise continue, écouter avec la version de référence et noter son, rythme, transitions et maîtrise des cordes parasites. Choisir la prochaine pièce selon les critères réellement acquis.",
+    "repertoire": "Jouer le morceau retenu en entier. Archiver une prise et écrire la prochaine étape : nouveau riff, lead ou morceau plus complexe.",
+    "ear": "Décrire de mémoire la structure et chanter le riff principal.",
+    "validation": "Prise complète archivée ; les critères manquants deviennent le contenu du prochain bloc.",
+    "moduleNumber": 33,
+    "moduleTitle": "Module final — guitare électrique, rock et lead",
+    "year": 11
   }
 ] as const;
 
@@ -5890,23 +6068,23 @@ export const repertoire = [
   {
     "number": 3,
     "title": "I Wanna Be Yours",
-    "info": "Arctic Monkeys  •  Électrique  •  M2 S14 à S26",
-    "target": "Partie principale et motif identifiable sur la forme complète.",
-    "level": "Débutant après audit de la partie."
+    "info": "Arctic Monkeys  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 4,
     "title": "Apocalypse",
-    "info": "Cigarettes After Sex  •  Électrique  •  M2 S14 à S26",
-    "target": "Partie principale sur la forme complète.",
-    "level": "Débutant après audit de la partie."
+    "info": "Cigarettes After Sex  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 5,
     "title": "Cry",
-    "info": "Cigarettes After Sex  •  Électrique  •  M2 S14 à S26",
-    "target": "Partie principale sur la forme complète.",
-    "level": "Débutant après audit de la partie."
+    "info": "Cigarettes After Sex  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 6,
@@ -5932,100 +6110,100 @@ export const repertoire = [
   {
     "number": 9,
     "title": "Undone The Sweater Song",
-    "info": "Weezer  •  Électrique  •  M4 S40 à S52",
-    "target": "Intro puis partie principale entière.",
-    "level": "Débutant ou intermédiaire."
+    "info": "Weezer  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 10,
     "title": "Where Is My Mind",
-    "info": "Pixies  •  Électrique  •  M4 S40 à S52",
-    "target": "Riff et partie principale entière.",
-    "level": "Débutant ou intermédiaire."
+    "info": "Pixies  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 11,
     "title": "There’s This Girl",
-    "info": "Sign Crushes Motorist nom à confirmer sur le lien choisi  •  Électrique  •  M4 S40 à S52",
-    "target": "Partie principale entière de l’enregistrement identifié.",
-    "level": "Version à identifier."
+    "info": "Sign Crushes Motorist nom à confirmer sur le lien choisi  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 12,
     "title": "Need 2",
-    "info": "Pinegrove  •  Électrique  •  M5 S53 à S65",
-    "target": "Partie principale entière avec contrôle du son.",
-    "level": "Intermédiaire selon doigtés et accordage."
+    "info": "Pinegrove  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 13,
     "title": "Spit in My Face",
-    "info": "ThxSoMuch  •  Électrique  •  M5 S53 à S65",
-    "target": "Partie principale et motif sur la forme complète.",
-    "level": "Intermédiaire selon transcription."
+    "info": "ThxSoMuch  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 14,
     "title": "Babydoll",
-    "info": "Ari Abdul  •  Électrique  •  M5 S53 à S65",
-    "target": "Partie principale entière de la version retenue.",
-    "level": "Intermédiaire selon transcription."
+    "info": "Ari Abdul  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 15,
     "title": "Eyes Without a Face",
-    "info": "Billy Idol  •  Électrique  •  M6 S66 à S78",
-    "target": "Partie rythmique complète puis motif principal.",
-    "level": "Intermédiaire selon présence du solo."
+    "info": "Billy Idol  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 16,
     "title": "Treehouse",
-    "info": "Alex G et Emily Yacina  •  Électrique  •  M6 S66 à S78",
-    "target": "Partie principale entière.",
-    "level": "Intermédiaire selon transcription."
+    "info": "Alex G et Emily Yacina  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 17,
     "title": "Mary",
-    "info": "Alex G  •  Électrique  •  M6 S66 à S78",
-    "target": "Partie principale entière.",
-    "level": "Intermédiaire selon transcription."
+    "info": "Alex G  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 18,
     "title": "The Night We Met",
-    "info": "Lord Huron  •  Électrique demandée  •  M7 S79 à S91",
-    "target": "Partie complète avec arpèges et articulation du thème.",
-    "level": "Intermédiaire selon version."
+    "info": "Lord Huron  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 19,
     "title": "Destroy Myself Just for You",
-    "info": "Montell Fish  •  Électrique  •  M7 S79 à S91",
-    "target": "Partie principale entière.",
-    "level": "Intermédiaire selon version."
+    "info": "Montell Fish  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 20,
     "title": "Heart to Heart",
-    "info": "Mac DeMarco  •  Électrique  •  M7 S79 à S91",
-    "target": "Partie principale entière.",
-    "level": "Intermédiaire selon version."
+    "info": "Mac DeMarco  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 21,
     "title": "Chamber of Reflection",
-    "info": "Mac DeMarco  •  Électrique  •  M8 S92 à S104",
-    "target": "Adaptation complète du motif de clavier et accompagnement séparé.",
-    "level": "Adaptation à sélectionner."
+    "info": "Mac DeMarco  •  Acoustique — arrangement solo adapté  •  M8 S92 à S104",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 22,
     "title": "Home",
-    "info": "Edward Sharpe and the Magnetic Zeros  •  Électrique demandée  •  M8 S92 à S104",
-    "target": "Accompagnement entier et motif distinctif joué séparément.",
-    "level": "Adaptation à sélectionner."
+    "info": "Edward Sharpe and the Magnetic Zeros  •  Acoustique — arrangement solo adapté  •  M8 S92 à S104",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 23,
@@ -6051,30 +6229,30 @@ export const repertoire = [
   {
     "number": 26,
     "title": "A Wolf at the Door",
-    "info": "Radiohead  •  Électrique  •  M9 S105 à S117",
-    "target": "Partie principale entière sans obligation de chanter.",
-    "level": "Intermédiaire selon version."
+    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M9 S105 à S117",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 27,
     "title": "Reptilia",
-    "info": "The Strokes  •  Électrique  •  M10 S118 à S130 ; M16 S196 à S208",
-    "target": "Partie rythmique puis partie lead complète apprises séparément.",
-    "level": "Intermédiaire à avancé à vitesse originale."
+    "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130 ; M16 S196 à S208",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 28,
     "title": "Ode to the Mets",
-    "info": "The Strokes  •  Électrique  •  M10 S118 à S130",
-    "target": "Partie principale entière et transitions.",
-    "level": "Intermédiaire selon partie choisie."
+    "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 29,
     "title": "The Adults Are Talking",
-    "info": "The Strokes  •  Électrique  •  M10 S118 à S130 ; M16 S196 à S208",
-    "target": "Partie rythmique puis partie lead complète séparément.",
-    "level": "Intermédiaire à avancé."
+    "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130 ; M16 S196 à S208",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 30,
@@ -6128,23 +6306,23 @@ export const repertoire = [
   {
     "number": 37,
     "title": "Duvet",
-    "info": "bôa  •  Électrique proposée  •  M14 S170 à S182",
-    "target": "Partie principale complète puis motif ou solo retenu dans le contrat.",
-    "level": "Intermédiaire selon partie choisie."
+    "info": "bôa  •  Acoustique — arrangement solo adapté  •  M14 S170 à S182",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 38,
     "title": "Let Down",
-    "info": "Radiohead  •  Électrique  •  M15 S183 à S195",
-    "target": "Partie choisie complète avec ostinato et retours exacts.",
-    "level": "Intermédiaire avancé."
+    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M15 S183 à S195",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 39,
     "title": "Knives Out",
-    "info": "Radiohead  •  Électrique  •  M15 S183 à S195",
-    "target": "Partie principale entière.",
-    "level": "Intermédiaire avancé."
+    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M15 S183 à S195",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 40,
@@ -6156,9 +6334,9 @@ export const repertoire = [
   {
     "number": 41,
     "title": "Just",
-    "info": "Radiohead  •  Électrique proposée  •  M16 S196 à S208",
-    "target": "Partie principale entière et passages lead inscrits au contrat.",
-    "level": "Intermédiaire avancé."
+    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M16 S196 à S208",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 42,
@@ -6170,7 +6348,7 @@ export const repertoire = [
   {
     "number": 43,
     "title": "Take Five",
-    "info": "Paul Desmond interprété par Dave Brubeck Quartet  •  Électrique ou acoustique  •  M17 S209 à S221",
+    "info": "Paul Desmond interprété par Dave Brubeck Quartet  •  Acoustique — arrangement solo adapté ou acoustique  •  M17 S209 à S221",
     "target": "Thème complet et grille d’accompagnement séparés puis courte improvisation.",
     "level": "Le solo original entier n’est pas inclus."
   },
@@ -6226,9 +6404,9 @@ export const repertoire = [
   {
     "number": 51,
     "title": "Paranoid Android",
-    "info": "Radiohead  •  Électrique proposée  •  M21 S261 à S273 ; M22 S274 à S286",
-    "target": "Une partie complète cohérente puis solos associés ; pas deux guitares simultanées.",
-    "level": "Avancé à vitesse originale."
+    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M21 S261 à S273 ; M22 S274 à S286",
+    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
   },
   {
     "number": 52,
@@ -6271,5 +6449,12 @@ export const repertoire = [
     "info": "Franz Liszt S 141 n° 3 d’après Paganini  •  Instrument imposé par la transcription  •  M31 S391 à S403 ; M32 S404 à S416",
     "target": "Transcription guitare annoncée et auditée ; intégralité à vérifier.",
     "level": "Très variable et potentiellement virtuose."
+  },
+  {
+    "number": 58,
+    "title": "Gwyn, Lord of Cinder",
+    "info": "Motoi Sakuraba — Dark Souls • Acoustique • M27 S339 à S351",
+    "target": "Arrangement solo acoustique : thème mélodique, basses et accords répartis en voix séparées avant assemblage. Choisir une transcription légitime adaptée à six cordes.",
+    "level": "Avancé ; la difficulté dépend de l’arrangement, des positions et de la polyphonie."
   }
 ] as const;

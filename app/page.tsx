@@ -82,7 +82,7 @@ type AppData = {
   reviews: Record<string, MonthlyReview>;
 };
 
-const TOTAL_WEEKS = 416;
+const TOTAL_WEEKS = 429;
 const STORAGE_KEY = "parcours-guitare-albert-v1";
 const SESSION_LETTERS = ["A", "B", "C", "D", "E"] as const;
 
@@ -95,7 +95,7 @@ const statusLabels: Record<UnitStatus, string> = {
 
 const navItems: { id: View; label: string; caption: string }[] = [
   { id: "dashboard", label: "Aujourd’hui", caption: "Prochaine marche" },
-  { id: "path", label: "Parcours", caption: "416 blocs de maîtrise" },
+  { id: "path", label: "Parcours", caption: "429 blocs de maîtrise" },
   { id: "months", label: "Mois", caption: "Calendrier et bilans" },
   { id: "sessions", label: "Séances", caption: "Journal modifiable" },
   { id: "reference", label: "Référentiel", caption: "Règles et remédiations" },
@@ -611,7 +611,7 @@ export default function Home() {
         <header className="topbar">
           <div>
             <span className="eyebrow">
-              Guitare pour Albert · 416 blocs de maîtrise
+              Guitare pour Albert · 429 blocs de maîtrise
             </span>
             <h1>
               {view === "dashboard" && "Avancer sans brûler d’étape."}

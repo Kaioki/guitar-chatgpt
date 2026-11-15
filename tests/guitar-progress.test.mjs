@@ -4,16 +4,16 @@ import { trackProgress } from '../app/progress.ts';
 import { isGuitarBackup, APP_ID } from '../app/backup-validation.ts';
 import { weeks, phases, repertoire } from '../app/plan-data.ts';
 import { buildBackupFilename } from '../app/backup-filename.ts';
-test('416 ordered blocks contain technical and repertoire instructions with the 312/104 boundary',()=>{
- assert.deepEqual(weeks.map(w=>w.number),Array.from({length:416},(_,i)=>i+1));
- assert.equal(phases.length,32); assert.equal(repertoire.length,57);
+test('429 ordered blocks contain technical and repertoire instructions with the 312/104 boundary',()=>{
+ assert.deepEqual(weeks.map(w=>w.number),Array.from({length:429},(_,i)=>i+1));
+ assert.equal(phases.length,33); assert.equal(repertoire.length,58);
  assert.ok(weeks.every(w=>w.work&&w.repertoire&&w.ear&&w.validation));
- assert.equal(weeks[311].moduleNumber,24);assert.equal(weeks[312].moduleNumber,25);
+ assert.equal(weeks[311].moduleNumber,24);assert.equal(weeks[312].moduleNumber,25);assert.equal(weeks[416].moduleNumber,33);
 });
 test('mastery percentages use only the appropriate blocks and remain independent',()=>{
- const p={S1:{status:'mastered'},S313:{status:'in_progress'},S416:{status:'mastered'}};
+ const p={S1:{status:'mastered'},S313:{status:'in_progress'},S429:{status:'mastered'}};
  assert.deepEqual(trackProgress(weeks,p,'core'),{total:312,mastered:1,percent:0.3});
- assert.deepEqual(trackProgress(weeks,p,'specialization'),{total:104,mastered:1,percent:1});
+ assert.deepEqual(trackProgress(weeks,p,'specialization'),{total:117,mastered:1,percent:0.9});
  const all=Object.fromEntries(weeks.filter(w=>w.number<=312).map(w=>[w.id,{status:'mastered'}]));
  assert.equal(trackProgress(weeks,all,'core').percent,100);assert.equal(trackProgress(weeks,all,'specialization').percent,0);
  assert.equal(trackProgress(weeks,{},'core').percent,0);
@@ -24,7 +24,7 @@ test('a guitar backup roundtrips and piano backups or broken sessions are reject
  assert.ok(isGuitarBackup(JSON.parse(JSON.stringify(backup))));
  assert.equal(isGuitarBackup({...backup,appId:'piano'}),false);
  assert.equal(isGuitarBackup({...backup,sessions:{'custom-check':{...session,duration:-1}}}),false);
- assert.equal(isGuitarBackup({...backup,sessions:{'custom-check':{...session,unitId:'S417'}}}),false);
+ assert.equal(isGuitarBackup({...backup,sessions:{'custom-check':{...session,unitId:'S430'}}}),false);
  assert.equal(isGuitarBackup(null),false);assert.equal(isGuitarBackup({version:5,sessions:{},unitProgress:{},reviews:{}}),false);
- assert.match(buildBackupFilename(new Date(2026,9,31)),/^parcours-guitare-albert-416-blocs-sauvegarde_2026-10-31\.json$/);
+ assert.match(buildBackupFilename(new Date(2026,9,31)),/^parcours-guitare-albert-429-blocs-sauvegarde_2026-10-31\.json$/);
 });

@@ -1,12 +1,12 @@
 # Le parcours guitare d’Albert
 
-Application personnelle de guitare, adaptée de Parcours Jazz Piano, avec 416 blocs progressifs et le répertoire choisi par Albert.
+Application personnelle de guitare, adaptée de Parcours Jazz Piano, avec 429 blocs progressifs et le répertoire choisi par Albert.
 
 ## Utilisation
 
 - Tronc commun : blocs 1 à 312, avec progression propre en pourcentage.
-- Spécialisation : blocs 313 à 416, avec compteur indépendant.
-- 32 modules, 57 titres (55 nouveaux titres souhaités et 2 déjà abordés).
+- Spécialisation : blocs 313 à 429, avec compteur indépendant.
+- 33 modules, 58 titres (55 nouveaux titres souhaités et 2 déjà abordés).
 - Séances de 30 minutes le samedi et le dimanche uniquement. Les cinq séances A à E d’un bloc se suivent sur plusieurs week-ends et se répètent jusqu’au feu vert.
 - Édition complète des séances : date, durée, consignes, tempo, accompagnement, notes, réussites, obstacle, prochaine action, difficulté et confiance.
 - Ajout de reprises optionnelles, validation, réouverture, suppression des séances ajoutées et retour au contenu guidé.
@@ -50,3 +50,10 @@ npm run build
 Envoyer ensuite le code et le nouveau contenu de `docs/` dans le dépôt. GitHub Pages republiera la version compilée si la publication depuis `main /docs` est activée.
 
 L’application fonctionne dans le navigateur sans serveur applicatif, compte supplémentaire ni clé d’API.
+
+
+## Organisation instrumentale
+
+Le tronc commun et la spécialisation acoustique privilégient des morceaux réalisables sur guitare acoustique, avec des arrangements solo lorsque l’original utilise plusieurs instruments. Un module électrique facultatif clôt le parcours (blocs 417 à 429) et rassemble les versions originales rock, les power chords, les étouffements, les riffs et le jeu lead. Le module classique commence dès le deuxième module, avec posture, attaque aux doigts, lecture en première position et premières phrases de Gymnopédie n° 1.
+
+**Gwyn, Lord of Cinder** (Dark Souls, Motoi Sakuraba) est ajouté au module 27 sous forme d’un arrangement acoustique solo avancé. Il faudra sélectionner une transcription adaptée et autorisée ; le parcours décrit le travail musical, sans reproduire de partition protégée.

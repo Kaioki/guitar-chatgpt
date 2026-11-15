@@ -1,5 +1,5 @@
 export const CORE_BLOCKS = 312;
-export const SPECIALIZATION_BLOCKS = 104;
+export const SPECIALIZATION_BLOCKS = 117;
 export const TOTAL_BLOCKS = CORE_BLOCKS + SPECIALIZATION_BLOCKS;
 export function trackProgress(units: readonly { id: string; number: number }[], progress: Record<string, {status?: string}>, track: 'core' | 'specialization') {
   const selected = units.filter(u => track === 'core' ? u.number <= CORE_BLOCKS : u.number > CORE_BLOCKS);
