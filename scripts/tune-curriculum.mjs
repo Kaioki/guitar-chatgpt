@@ -2,7 +2,7 @@ import fs from "node:fs";
 const p = "app/plan-data.ts";
 let source = fs.readFileSync(p, "utf8");
 function getArray(name) {
-  const marker = \`export const \${name} =\`;
+  const marker = `export const ${name} =`;
   const start = source.indexOf(marker);
   const open = source.indexOf("[", start);
   const close = source.indexOf("] as const;", open);
