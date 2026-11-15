@@ -6,7 +6,7 @@ import { weeks, phases, repertoire } from '../app/plan-data.ts';
 import { buildBackupFilename } from '../app/backup-filename.ts';
 test('429 ordered blocks contain technical and repertoire instructions with the 312/117 boundary',()=>{
  assert.deepEqual(weeks.map(w=>w.number),Array.from({length:429},(_,i)=>i+1));
- assert.equal(phases.length,33); assert.equal(repertoire.length,58);
+ assert.equal(phases.length,33); assert.equal(repertoire.length,66);
  assert.ok(weeks.every(w=>w.work&&w.repertoire&&w.ear&&w.validation));
  assert.equal(weeks[311].moduleNumber,24);assert.equal(weeks[312].moduleNumber,25);assert.equal(weeks[416].moduleNumber,33);
 });
