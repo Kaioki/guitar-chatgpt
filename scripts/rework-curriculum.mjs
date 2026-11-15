@@ -3,12 +3,12 @@ import fs from "node:fs";
 const read = (p) => fs.readFileSync(p, "utf8");
 const write = (p, s) => fs.writeFileSync(p, s);
 function readArray(source, name) {
-  const marker = \`export const \${name} =\`;
+  const marker = `export const ${name} =`;
   const start = source.indexOf(marker);
-  if (start < 0) throw new Error(\`Array \${name} not found\`);
+  if (start < 0) throw new Error(`Array ${name} not found`);
   const open = source.indexOf("[", start);
   const close = source.indexOf("] as const;", open);
-  if (open < 0 || close < 0) throw new Error(\`Array \${name} boundaries not found\`);
+  if (open < 0 || close < 0) throw new Error(`Array ${name} boundaries not found`);
   return { value: JSON.parse(source.slice(open, close + 1)), before: source.slice(0, open), after: source.slice(close + 1) };
 }
 function writeArray(parts, value) { return parts.before + JSON.stringify(value, null, 2) + parts.after; }
