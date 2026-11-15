@@ -47,3 +47,5 @@ fs.writeFileSync(p,source);
 let test = fs.readFileSync("tests/guitar-progress.test.mjs","utf8").replace("with the 312/104 boundary","with the 312/117 boundary");
 fs.writeFileSync("tests/guitar-progress.test.mjs",test);
 console.log("Acoustic phase labels and repertoire order updated.");
+
+// Trigger final acoustic curriculum pass.
