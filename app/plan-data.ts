@@ -201,7 +201,7 @@ export const phases = [
   {
     "number": 23,
     "weeks": "287 à 299",
-    "title": "Interpréter Gymnopédie numéro 1",
+    "title": "Approfondir et interpréter Gymnopédie numéro 1",
     "focus": "Gymnopédie n° 1 : transcription acoustique complète, voix séparées puis polyphonie.",
     "gate": "Voix indépendantes et lecture en première et cinquième positions.",
     "year": 8,
@@ -6467,7 +6467,7 @@ export const repertoire = [
     {
       "number": 60,
       "title": "Gymnopédie n° 1",
-      "info": "Erik Satie  •  Acoustique proposée  •  M23 S287 à S299",
+      "info": "Erik Satie  •  Acoustique proposée  •  Initiation : M2 S14 à S26 ; approfondissement et intégrale : M23 S287 à S299",
       "target": "Transcription intégrale pour guitare solo.",
       "level": "Intermédiaire avancé selon édition."
     },
