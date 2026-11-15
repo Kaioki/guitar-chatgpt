@@ -6,7 +6,7 @@ Application personnelle de guitare, adaptée de Parcours Jazz Piano, avec 429 bl
 
 - Tronc commun : blocs 1 à 312, avec progression propre en pourcentage.
 - Spécialisation : blocs 313 à 429, avec compteur indépendant.
-- 33 modules, 58 titres (55 nouveaux titres souhaités et 2 déjà abordés).
+- 33 modules, 58 titres (56 nouveaux titres souhaités et 2 déjà abordés).
 - Séances de 30 minutes le samedi et le dimanche uniquement. Les cinq séances A à E d’un bloc se suivent sur plusieurs week-ends et se répètent jusqu’au feu vert.
 - Édition complète des séances : date, durée, consignes, tempo, accompagnement, notes, réussites, obstacle, prochaine action, difficulté et confiance.
 - Ajout de reprises optionnelles, validation, réouverture, suppression des séances ajoutées et retour au contenu guidé.
