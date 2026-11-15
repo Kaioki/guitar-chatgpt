@@ -6051,466 +6051,466 @@ export const deferredUse = [
 ] as const;
 
 export const repertoire = [
-  {
-    "number": 1,
-    "title": "Gnossienne n° 1",
-    "info": "Erik Satie  •  Acoustique  •  M1 S1 à S13",
-    "target": "Reprise de la version déjà jouée en entier.",
-    "level": "Déclaré joué mais qualité à vérifier."
-  },
-  {
-    "number": 2,
-    "title": "Light of the Seven",
-    "info": "Ramin Djawadi arrangement Ernesto Schnack  •  Acoustique  •  M1 S1 à S13 ; M11 S131 à S143",
-    "target": "Version de cinq pages annoncée dans le positionnement.",
-    "level": "Trois pages déclarées jouées sur cinq."
-  },
-  {
-    "number": 3,
-    "title": "I Wanna Be Yours",
-    "info": "Arctic Monkeys  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 4,
-    "title": "Apocalypse",
-    "info": "Cigarettes After Sex  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 5,
-    "title": "Cry",
-    "info": "Cigarettes After Sex  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 6,
-    "title": "The Moon Song",
-    "info": "Karen O  •  Acoustique  •  M3 S27 à S39",
-    "target": "Accompagnement de la chanson entière.",
-    "level": "Débutant après audit de la version."
-  },
-  {
-    "number": 7,
-    "title": "Someday I’ll Get It",
-    "info": "Alek Olsen  •  Acoustique  •  M3 S27 à S39",
-    "target": "Accompagnement de la chanson entière.",
-    "level": "Débutant après audit de la version."
-  },
-  {
-    "number": 8,
-    "title": "Pretend",
-    "info": "Alex G  •  Acoustique  •  M3 S27 à S39",
-    "target": "Partie de guitare complète de la version retenue.",
-    "level": "Débutant ou intermédiaire selon version."
-  },
-  {
-    "number": 9,
-    "title": "Undone The Sweater Song",
-    "info": "Weezer  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 10,
+    {
+      "number": 1,
+      "title": "Gnossienne n° 1",
+      "info": "Erik Satie  •  Acoustique  •  M1 S1 à S13",
+      "target": "Reprise de la version déjà jouée en entier.",
+      "level": "Déclaré joué mais qualité à vérifier."
+    },
+    {
+      "number": 2,
+      "title": "Light of the Seven",
+      "info": "Ramin Djawadi arrangement Ernesto Schnack  •  Acoustique  •  M1 S1 à S13 ; M11 S131 à S143",
+      "target": "Version de cinq pages annoncée dans le positionnement.",
+      "level": "Trois pages déclarées jouées sur cinq."
+    },
+    {
+      "number": 3,
+      "title": "I Wanna Be Yours",
+      "info": "Arctic Monkeys  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 4,
+      "title": "Apocalypse",
+      "info": "Cigarettes After Sex  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 5,
+      "title": "Cry",
+      "info": "Cigarettes After Sex  •  Acoustique — arrangement solo adapté  •  M2 S14 à S26",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 6,
+      "title": "The Moon Song",
+      "info": "Karen O  •  Acoustique  •  M3 S27 à S39",
+      "target": "Accompagnement de la chanson entière.",
+      "level": "Débutant après audit de la version."
+    },
+    {
+      "number": 7,
+      "title": "Someday I’ll Get It",
+      "info": "Alek Olsen  •  Acoustique  •  M3 S27 à S39",
+      "target": "Accompagnement de la chanson entière.",
+      "level": "Débutant après audit de la version."
+    },
+    {
+      "number": 8,
+      "title": "Pretend",
+      "info": "Alex G  •  Acoustique  •  M3 S27 à S39",
+      "target": "Partie de guitare complète de la version retenue.",
+      "level": "Débutant ou intermédiaire selon version."
+    },
+    {
+      "number": 9,
+      "title": "Undone The Sweater Song",
+      "info": "Weezer  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 10,
     "title": "Where Is My Mind",
-    "info": "Pixies  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 11,
-    "title": "There’s This Girl",
-    "info": "Sign Crushes Motorist nom à confirmer sur le lien choisi  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 12,
-    "title": "Need 2",
-    "info": "Pinegrove  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 13,
-    "title": "Spit in My Face",
-    "info": "ThxSoMuch  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 14,
-    "title": "Babydoll",
-    "info": "Ari Abdul  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 15,
-    "title": "Eyes Without a Face",
-    "info": "Billy Idol  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 16,
-    "title": "Treehouse",
-    "info": "Alex G et Emily Yacina  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 17,
-    "title": "Mary",
-    "info": "Alex G  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 18,
-    "title": "The Night We Met",
-    "info": "Lord Huron  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 19,
-    "title": "Destroy Myself Just for You",
-    "info": "Montell Fish  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 20,
-    "title": "Heart to Heart",
-    "info": "Mac DeMarco  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 21,
-    "title": "Chamber of Reflection",
-    "info": "Mac DeMarco  •  Acoustique — arrangement solo adapté  •  M8 S92 à S104",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 22,
-    "title": "Home",
-    "info": "Edward Sharpe and the Magnetic Zeros  •  Acoustique — arrangement solo adapté  •  M8 S92 à S104",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 23,
-    "title": "To All of You",
-    "info": "Syd Matters  •  Acoustique proposée  •  M8 S92 à S104",
-    "target": "Partie principale de la chanson entière.",
-    "level": "Intermédiaire selon version."
-  },
-  {
-    "number": 24,
-    "title": "Evergreen",
-    "info": "Richy Mitch and the Coal Miners  •  Acoustique  •  M9 S105 à S117",
-    "target": "Partie complète avec rythme de la version retenue.",
-    "level": "Intermédiaire selon version."
-  },
-  {
-    "number": 25,
-    "title": "Fuel to Fire",
-    "info": "Agnes Obel  •  Acoustique proposée  •  M9 S105 à S117",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Intermédiaire ou avancé selon arrangement."
-  },
-  {
-    "number": 26,
-    "title": "A Wolf at the Door",
-    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M9 S105 à S117",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 27,
-    "title": "Reptilia",
-    "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130 ; M16 S196 à S208",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 28,
-    "title": "Ode to the Mets",
-    "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 29,
-    "title": "The Adults Are Talking",
-    "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130 ; M16 S196 à S208",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 30,
-    "title": "Intro Theme Detroit Become Human",
-    "info": "Titre précis de la piste à confirmer  •  Acoustique  •  M11 S131 à S143",
-    "target": "Arrangement guitare solo complet de la piste identifiée.",
-    "level": "Classement provisoire."
-  },
-  {
-    "number": 31,
-    "title": "Never Meant to Belong",
-    "info": "Bleach OST  •  Acoustique proposée  •  M11 S131 à S143",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Intermédiaire ou avancé selon arrangement."
-  },
-  {
-    "number": 32,
-    "title": "Down by the River",
-    "info": "Baldur’s Gate 3  •  Acoustique proposée  •  M12 S144 à S156",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Intermédiaire selon arrangement."
-  },
-  {
-    "number": 33,
-    "title": "I Want to Live",
-    "info": "Baldur’s Gate 3  •  Acoustique proposée  •  M12 S144 à S156",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Intermédiaire ou avancé selon arrangement."
-  },
-  {
-    "number": 34,
-    "title": "Bard Dance",
-    "info": "Baldur’s Gate 3  •  Acoustique proposée  •  M12 S144 à S156",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Intermédiaire ou avancé selon arrangement."
-  },
-  {
-    "number": 35,
-    "title": "Let You Down",
-    "info": "Dawid Podsiadło version EmileGuitar  •  Acoustique  •  M13 S157 à S169",
-    "target": "Cover fingerstyle complète d’EmileGuitar.",
-    "level": "Intermédiaire avancé estimation pédagogique."
-  },
-  {
-    "number": 36,
-    "title": "From the Start",
-    "info": "Laufey  •  Acoustique  •  M14 S170 à S182",
-    "target": "Partie de guitare intégrale avec basse et rythme de bossa.",
-    "level": "Intermédiaire selon transcription."
-  },
-  {
-    "number": 37,
-    "title": "Duvet",
-    "info": "bôa  •  Acoustique — arrangement solo adapté  •  M14 S170 à S182",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 38,
-    "title": "Let Down",
-    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M15 S183 à S195",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 39,
-    "title": "Knives Out",
-    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M15 S183 à S195",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 40,
-    "title": "Jigsaw Falling Into Place",
-    "info": "Radiohead  •  Acoustique  •  M15 S183 à S195",
-    "target": "Partie de guitare complète avec rythme et accordage de la version.",
-    "level": "Intermédiaire avancé."
-  },
-  {
-    "number": 41,
-    "title": "Just",
-    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M16 S196 à S208",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 42,
-    "title": "Golden Brown",
-    "info": "The Stranglers  •  Acoustique proposée  •  M17 S209 à S221",
-    "target": "Thème et accompagnement complet appris séparément.",
-    "level": "Mesures particulières et adaptation à fixer."
-  },
-  {
-    "number": 43,
-    "title": "Take Five",
-    "info": "Paul Desmond interprété par Dave Brubeck Quartet  •  Acoustique — arrangement solo adapté ou acoustique  •  M17 S209 à S221",
-    "target": "Thème complet et grille d’accompagnement séparés puis courte improvisation.",
-    "level": "Le solo original entier n’est pas inclus."
-  },
-  {
-    "number": 44,
-    "title": "The Night King",
-    "info": "Game of Thrones OST  •  Acoustique proposée  •  M18 S222 à S234",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Avancé selon densité de l’arrangement."
-  },
-  {
-    "number": 45,
-    "title": "Toss a Coin to Your Witcher",
-    "info": "Série The Witcher et non The Witcher 3  •  Acoustique proposée  •  M18 S222 à S234",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Intermédiaire selon arrangement."
-  },
-  {
-    "number": 46,
-    "title": "In the Pool",
-    "info": "Chainsaw Man piste exacte à confirmer  •  Acoustique proposée  •  M18 S222 à S234",
-    "target": "Arrangement guitare solo complet de la piste identifiée.",
-    "level": "Classement provisoire."
-  },
-  {
-    "number": 47,
-    "title": "Dirtmouth",
-    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M18 S222 à S234",
-    "target": "Arrangement solo classique identifié ; travailler la mélodie chantante, les basses simples et les résonances sans accélérer.",
-    "level": "Intermédiaire estimé ; première pièce du bloc Hollow Knight, à confirmer sur la partition choisie."
-  },
-  {
-    "number": 48,
-    "title": "The Fields of Ard Skellig",
-    "info": "The Witcher 3: Wild Hunt OST  •  Arrangement guitare fingerstyle solo référencé  •  M18 S222 à S234",
-    "target": "Arrangement fingerstyle à une guitare ; stabiliser la basse, la mélodie et les harmoniques naturelles si présentes dans la transcription.",
-    "level": "Intermédiaire à intermédiaire avancé estimé ; difficulté dépendante de la version retenue."
-  },
-  {
-    "number": 49,
-    "title": "Greenpath",
-    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M19 S235 à S247",
-    "target": "Arrangement solo classique ; faire ressortir la ligne mélodique au-dessus de l’accompagnement et contrôler les changements de position.",
-    "level": "Intermédiaire avancé estimé ; progression après Dirtmouth."
-  },
-  {
-    "number": 50,
-    "title": "Kaer Morhen",
-    "info": "The Witcher 3: Wild Hunt OST  •  Arrangement guitare fingerstyle solo référencé  •  M19 S235 à S247",
-    "target": "Arrangement fingerstyle à une guitare ; lier arpèges, basses et mélodie avec un phrasé continu.",
-    "level": "Intermédiaire avancé estimé ; vérifier la tessiture et les doigtés de la transcription."
-  },
-  {
-    "number": 51,
-    "title": "City of Tears",
-    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M20 S248 à S260",
-    "target": "Arrangement solo classique ; équilibrer plusieurs voix, tenir les basses et conduire la mélodie sans couvrir les notes intérieures.",
-    "level": "Avancé estimé ; polyphonie et contrôle des voix à valider sur la partition."
-  },
-  {
-    "number": 52,
-    "title": "Geralt of Rivia",
-    "info": "The Witcher 3: Wild Hunt OST  •  Arrangement guitare fingerstyle solo référencé  •  M20 S248 à S260",
-    "target": "Arrangement fingerstyle à une guitare ; travailler les basses alternées, les changements d’accords et la continuité du thème.",
-    "level": "Avancé estimé ; classement provisoire selon la transcription retenue."
-  },
-  {
-    "number": 53,
-    "title": "The Wolven Storm (Priscilla’s Song)",
-    "info": "Marcin Przybyłowicz  •  The Witcher 3: Wild Hunt  •  Arrangement guitare solo fingerstyle référencé  •  M21 S261 à S273",
-    "target": "Arrangement solo complet à une guitare ; séparer accompagnement et mélodie chantée puis les réunir avec un équilibre dynamique.",
-    "level": "Avancé estimé ; arrangement solo publié, difficulté à confirmer sur l’édition retenue."
-  },
-  {
-    "number": 54,
-    "title": "White Palace",
-    "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M22 S274 à S286",
-    "target": "Arrangement solo classique ; consolider les démanchés, les voix superposées et les transitions sur une forme continue.",
-    "level": "Avancé à avancé supérieur estimé ; dernière étape du bloc Hollow Knight."
-  },
-  {
-    "number": 47,
-    "title": "Great Fairy Fountain",
-    "info": "The Legend of Zelda  •  Acoustique  •  M19 S235 à S247",
-    "target": "Arrangement fingerstyle complet.",
-    "level": "Intermédiaire avancé selon arrangement."
-  },
-  {
-    "number": 48,
-    "title": "Lumière",
-    "info": "Clair Obscur Expedition 33  •  Acoustique proposée  •  M20 S248 à S260",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Classement selon transcription."
-  },
-  {
-    "number": 49,
-    "title": "Lumière Lumière à l’Aube",
-    "info": "Clair Obscur Expedition 33  •  Acoustique proposée  •  M20 S248 à S260",
-    "target": "Arrangement guitare solo complet de la piste distincte.",
-    "level": "Classement selon transcription."
-  },
-  {
-    "number": 50,
-    "title": "Alicia",
-    "info": "Clair Obscur Expedition 33  •  Acoustique proposée  •  M20 S248 à S260",
-    "target": "Arrangement guitare solo complet.",
-    "level": "Classement selon transcription."
-  },
-  {
-    "number": 51,
-    "title": "Paranoid Android",
-    "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M21 S261 à S273 ; M22 S274 à S286",
-    "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
-    "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
-  },
-  {
-    "number": 52,
-    "title": "Gymnopédie n° 1",
-    "info": "Erik Satie  •  Acoustique proposée  •  M23 S287 à S299",
-    "target": "Transcription intégrale pour guitare solo.",
-    "level": "Intermédiaire avancé selon édition."
-  },
-  {
-    "number": 53,
-    "title": "Sérénade",
-    "info": "Franz Schubert Ständchen D 957 n° 4 proposé  •  Acoustique proposée  •  M24 S300 à S312",
-    "target": "Transcription intégrale pour guitare solo de la version retenue.",
-    "level": "Titre et arrangement à confirmer."
-  },
-  {
-    "number": 54,
-    "title": "The Second Waltz",
-    "info": "Dmitri Chostakovitch Valse n° 2 proposée  •  Acoustique proposée  •  M24 S300 à S312",
-    "target": "Transcription intégrale pour guitare solo.",
-    "level": "Intermédiaire avancé selon édition."
-  },
-  {
-    "number": 55,
-    "title": "Clair de lune",
-    "info": "Claude Debussy Suite bergamasque  •  Acoustique adaptée à l’édition  •  M25 S313 à S325 ; M26 S326 à S338",
-    "target": "Transcription complète pour six cordes sans limiter l’objectif au thème initial.",
-    "level": "Avancé."
-  },
-  {
-    "number": 56,
-    "title": "Gwyn, Lord of Cinder",
-    "info": "Motoi Sakuraba — Dark Souls • Acoustique • M27 S339 à S351",
-    "target": "Arrangement solo acoustique : thème mélodique, basses et accords répartis en voix séparées avant assemblage. Choisir une transcription légitime adaptée à six cordes.",
-    "level": "Avancé ; la difficulté dépend de l’arrangement, des positions et de la polyphonie."
-  },
-  {
-    "number": 57,
-    "title": "Asturias",
-    "info": "Isaac Albéniz Leyenda  •  Acoustique adaptée à l’édition  •  M28 S352 à S364 ; M29 S365 à S377 ; M30 S378 à S390",
-    "target": "Transcription intégrale avec section centrale et reprise.",
-    "level": "Avancé."
-  },
-  {
-    "number": 58,
-    "title": "La Campanella",
-    "info": "Franz Liszt S 141 n° 3 d’après Paganini  •  Instrument imposé par la transcription  •  M31 S391 à S403 ; M32 S404 à S416",
-    "target": "Transcription guitare annoncée et auditée ; intégralité à vérifier.",
-    "level": "Très variable et potentiellement virtuose."
-  }
-];
+      "info": "Pixies  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 11,
+      "title": "There’s This Girl",
+      "info": "Sign Crushes Motorist nom à confirmer sur le lien choisi  •  Acoustique — arrangement solo adapté  •  M4 S40 à S52",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 12,
+      "title": "Need 2",
+      "info": "Pinegrove  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 13,
+      "title": "Spit in My Face",
+      "info": "ThxSoMuch  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 14,
+      "title": "Babydoll",
+      "info": "Ari Abdul  •  Acoustique — arrangement solo adapté  •  M5 S53 à S65",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 15,
+      "title": "Eyes Without a Face",
+      "info": "Billy Idol  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 16,
+      "title": "Treehouse",
+      "info": "Alex G et Emily Yacina  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 17,
+      "title": "Mary",
+      "info": "Alex G  •  Acoustique — arrangement solo adapté  •  M6 S66 à S78",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 18,
+      "title": "The Night We Met",
+      "info": "Lord Huron  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 19,
+      "title": "Destroy Myself Just for You",
+      "info": "Montell Fish  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 20,
+      "title": "Heart to Heart",
+      "info": "Mac DeMarco  •  Acoustique — arrangement solo adapté  •  M7 S79 à S91",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 21,
+      "title": "Chamber of Reflection",
+      "info": "Mac DeMarco  •  Acoustique — arrangement solo adapté  •  M8 S92 à S104",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 22,
+      "title": "Home",
+      "info": "Edward Sharpe and the Magnetic Zeros  •  Acoustique — arrangement solo adapté  •  M8 S92 à S104",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 23,
+      "title": "To All of You",
+      "info": "Syd Matters  •  Acoustique proposée  •  M8 S92 à S104",
+      "target": "Partie principale de la chanson entière.",
+      "level": "Intermédiaire selon version."
+    },
+    {
+      "number": 24,
+      "title": "Evergreen",
+      "info": "Richy Mitch and the Coal Miners  •  Acoustique  •  M9 S105 à S117",
+      "target": "Partie complète avec rythme de la version retenue.",
+      "level": "Intermédiaire selon version."
+    },
+    {
+      "number": 25,
+      "title": "Fuel to Fire",
+      "info": "Agnes Obel  •  Acoustique proposée  •  M9 S105 à S117",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Intermédiaire ou avancé selon arrangement."
+    },
+    {
+      "number": 26,
+      "title": "A Wolf at the Door",
+      "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M9 S105 à S117",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 27,
+      "title": "Reptilia",
+      "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130 ; M16 S196 à S208",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 28,
+      "title": "Ode to the Mets",
+      "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 29,
+      "title": "The Adults Are Talking",
+      "info": "The Strokes  •  Acoustique — arrangement solo adapté  •  M10 S118 à S130 ; M16 S196 à S208",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 30,
+      "title": "Intro Theme Detroit Become Human",
+      "info": "Titre précis de la piste à confirmer  •  Acoustique  •  M11 S131 à S143",
+      "target": "Arrangement guitare solo complet de la piste identifiée.",
+      "level": "Classement provisoire."
+    },
+    {
+      "number": 31,
+      "title": "Never Meant to Belong",
+      "info": "Bleach OST  •  Acoustique proposée  •  M11 S131 à S143",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Intermédiaire ou avancé selon arrangement."
+    },
+    {
+      "number": 32,
+      "title": "Down by the River",
+      "info": "Baldur’s Gate 3  •  Acoustique proposée  •  M12 S144 à S156",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Intermédiaire selon arrangement."
+    },
+    {
+      "number": 33,
+      "title": "I Want to Live",
+      "info": "Baldur’s Gate 3  •  Acoustique proposée  •  M12 S144 à S156",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Intermédiaire ou avancé selon arrangement."
+    },
+    {
+      "number": 34,
+      "title": "Bard Dance",
+      "info": "Baldur’s Gate 3  •  Acoustique proposée  •  M12 S144 à S156",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Intermédiaire ou avancé selon arrangement."
+    },
+    {
+      "number": 35,
+      "title": "Let You Down",
+      "info": "Dawid Podsiadło version EmileGuitar  •  Acoustique  •  M13 S157 à S169",
+      "target": "Cover fingerstyle complète d’EmileGuitar.",
+      "level": "Intermédiaire avancé estimation pédagogique."
+    },
+    {
+      "number": 36,
+      "title": "From the Start",
+      "info": "Laufey  •  Acoustique  •  M14 S170 à S182",
+      "target": "Partie de guitare intégrale avec basse et rythme de bossa.",
+      "level": "Intermédiaire selon transcription."
+    },
+    {
+      "number": 37,
+      "title": "Duvet",
+      "info": "bôa  •  Acoustique — arrangement solo adapté  •  M14 S170 à S182",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 38,
+      "title": "Let Down",
+      "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M15 S183 à S195",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 39,
+      "title": "Knives Out",
+      "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M15 S183 à S195",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 40,
+      "title": "Jigsaw Falling Into Place",
+      "info": "Radiohead  •  Acoustique  •  M15 S183 à S195",
+      "target": "Partie de guitare complète avec rythme et accordage de la version.",
+      "level": "Intermédiaire avancé."
+    },
+    {
+      "number": 41,
+      "title": "Just",
+      "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M16 S196 à S208",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 42,
+      "title": "Golden Brown",
+      "info": "The Stranglers  •  Acoustique proposée  •  M17 S209 à S221",
+      "target": "Thème et accompagnement complet appris séparément.",
+      "level": "Mesures particulières et adaptation à fixer."
+    },
+    {
+      "number": 43,
+      "title": "Take Five",
+      "info": "Paul Desmond interprété par Dave Brubeck Quartet  •  Acoustique — arrangement solo adapté ou acoustique  •  M17 S209 à S221",
+      "target": "Thème complet et grille d’accompagnement séparés puis courte improvisation.",
+      "level": "Le solo original entier n’est pas inclus."
+    },
+    {
+      "number": 44,
+      "title": "The Night King",
+      "info": "Game of Thrones OST  •  Acoustique proposée  •  M18 S222 à S234",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Avancé selon densité de l’arrangement."
+    },
+    {
+      "number": 45,
+      "title": "Toss a Coin to Your Witcher",
+      "info": "Série The Witcher et non The Witcher 3  •  Acoustique proposée  •  M18 S222 à S234",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Intermédiaire selon arrangement."
+    },
+    {
+      "number": 46,
+      "title": "In the Pool",
+      "info": "Chainsaw Man piste exacte à confirmer  •  Acoustique proposée  •  M18 S222 à S234",
+      "target": "Arrangement guitare solo complet de la piste identifiée.",
+      "level": "Classement provisoire."
+    },
+    {
+      "number": 47,
+      "title": "Dirtmouth",
+      "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M18 S222 à S234",
+      "target": "Arrangement solo classique identifié ; travailler la mélodie chantante, les basses simples et les résonances sans accélérer.",
+      "level": "Intermédiaire estimé ; première pièce du bloc Hollow Knight, à confirmer sur la partition choisie."
+    },
+    {
+      "number": 48,
+      "title": "The Fields of Ard Skellig",
+      "info": "Marcin Przybyłowicz, Mikołaj Stroiński et Percival Schuttenbach • The Witcher 3: Wild Hunt  •  Arrangement guitare fingerstyle solo référencé  •  M18 S222 à S234",
+      "target": "Arrangement fingerstyle à une guitare ; stabiliser la basse, la mélodie et les harmoniques naturelles si présentes dans la transcription.",
+      "level": "Intermédiaire à intermédiaire avancé estimé ; difficulté dépendante de la version retenue."
+    },
+    {
+      "number": 49,
+      "title": "Greenpath",
+      "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M19 S235 à S247",
+      "target": "Arrangement solo classique ; faire ressortir la ligne mélodique au-dessus de l’accompagnement et contrôler les changements de position.",
+      "level": "Intermédiaire avancé estimé ; progression après Dirtmouth."
+    },
+    {
+      "number": 50,
+      "title": "Kaer Morhen",
+      "info": "Marcin Przybyłowicz, Mikołaj Stroiński et Percival Schuttenbach • The Witcher 3: Wild Hunt  •  Arrangement guitare fingerstyle solo référencé  •  M19 S235 à S247",
+      "target": "Arrangement fingerstyle à une guitare ; lier arpèges, basses et mélodie avec un phrasé continu.",
+      "level": "Intermédiaire avancé estimé ; vérifier la tessiture et les doigtés de la transcription."
+    },
+    {
+      "number": 51,
+      "title": "City of Tears",
+      "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M20 S248 à S260",
+      "target": "Arrangement solo classique ; équilibrer plusieurs voix, tenir les basses et conduire la mélodie sans couvrir les notes intérieures.",
+      "level": "Avancé estimé ; polyphonie et contrôle des voix à valider sur la partition."
+    },
+    {
+      "number": 52,
+      "title": "Geralt of Rivia",
+      "info": "Marcin Przybyłowicz, Mikołaj Stroiński et Percival Schuttenbach • The Witcher 3: Wild Hunt  •  Arrangement guitare fingerstyle solo référencé  •  M20 S248 à S260",
+      "target": "Arrangement fingerstyle à une guitare ; travailler les basses alternées, les changements d’accords et la continuité du thème.",
+      "level": "Avancé estimé ; classement provisoire selon la transcription retenue."
+    },
+    {
+      "number": 53,
+      "title": "The Wolven Storm (Priscilla’s Song)",
+      "info": "Marcin Przybyłowicz, Mikołaj Stroiński et Percival Schuttenbach • The Witcher 3: Wild Hunt  •  Arrangement guitare solo fingerstyle référencé  •  M21 S261 à S273",
+      "target": "Arrangement solo complet à une guitare ; séparer accompagnement et mélodie chantée puis les réunir avec un équilibre dynamique.",
+      "level": "Avancé estimé ; arrangement solo publié, difficulté à confirmer sur l’édition retenue."
+    },
+    {
+      "number": 54,
+      "title": "White Palace",
+      "info": "Christopher Larkin  •  Hollow Knight OST  •  Guitare classique solo, arrangement Josh Garofolo  •  M22 S274 à S286",
+      "target": "Arrangement solo classique ; consolider les démanchés, les voix superposées et les transitions sur une forme continue.",
+      "level": "Avancé à avancé supérieur estimé ; dernière étape du bloc Hollow Knight."
+    },
+    {
+      "number": 55,
+      "title": "Great Fairy Fountain",
+      "info": "The Legend of Zelda  •  Acoustique  •  M19 S235 à S247",
+      "target": "Arrangement fingerstyle complet.",
+      "level": "Intermédiaire avancé selon arrangement."
+    },
+    {
+      "number": 56,
+      "title": "Lumière",
+      "info": "Clair Obscur Expedition 33  •  Acoustique proposée  •  M20 S248 à S260",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Classement selon transcription."
+    },
+    {
+      "number": 57,
+      "title": "Lumière Lumière à l’Aube",
+      "info": "Clair Obscur Expedition 33  •  Acoustique proposée  •  M20 S248 à S260",
+      "target": "Arrangement guitare solo complet de la piste distincte.",
+      "level": "Classement selon transcription."
+    },
+    {
+      "number": 58,
+      "title": "Alicia",
+      "info": "Clair Obscur Expedition 33  •  Acoustique proposée  •  M20 S248 à S260",
+      "target": "Arrangement guitare solo complet.",
+      "level": "Classement selon transcription."
+    },
+    {
+      "number": 59,
+      "title": "Paranoid Android",
+      "info": "Radiohead  •  Acoustique — arrangement solo adapté  •  M21 S261 à S273 ; M22 S274 à S286",
+      "target": "Version acoustique jouable : arrangement réduit à une seule guitare, avec priorité à la mélodie, à la basse et à la forme complète. La version électrique originale est réservée au module final.",
+      "level": "Niveau de l’arrangement acoustique à valider selon la transcription retenue."
+    },
+    {
+      "number": 60,
+      "title": "Gymnopédie n° 1",
+      "info": "Erik Satie  •  Acoustique proposée  •  M23 S287 à S299",
+      "target": "Transcription intégrale pour guitare solo.",
+      "level": "Intermédiaire avancé selon édition."
+    },
+    {
+      "number": 61,
+      "title": "Sérénade",
+      "info": "Franz Schubert Ständchen D 957 n° 4 proposé  •  Acoustique proposée  •  M24 S300 à S312",
+      "target": "Transcription intégrale pour guitare solo de la version retenue.",
+      "level": "Titre et arrangement à confirmer."
+    },
+    {
+      "number": 62,
+      "title": "The Second Waltz",
+      "info": "Dmitri Chostakovitch Valse n° 2 proposée  •  Acoustique proposée  •  M24 S300 à S312",
+      "target": "Transcription intégrale pour guitare solo.",
+      "level": "Intermédiaire avancé selon édition."
+    },
+    {
+      "number": 63,
+      "title": "Clair de lune",
+      "info": "Claude Debussy Suite bergamasque  •  Acoustique adaptée à l’édition  •  M25 S313 à S325 ; M26 S326 à S338",
+      "target": "Transcription complète pour six cordes sans limiter l’objectif au thème initial.",
+      "level": "Avancé."
+    },
+    {
+      "number": 64,
+      "title": "Gwyn, Lord of Cinder",
+      "info": "Motoi Sakuraba — Dark Souls • Acoustique • M27 S339 à S351",
+      "target": "Arrangement solo acoustique : thème mélodique, basses et accords répartis en voix séparées avant assemblage. Choisir une transcription légitime adaptée à six cordes.",
+      "level": "Avancé ; la difficulté dépend de l’arrangement, des positions et de la polyphonie."
+    },
+    {
+      "number": 65,
+      "title": "Asturias",
+      "info": "Isaac Albéniz Leyenda  •  Acoustique adaptée à l’édition  •  M28 S352 à S364 ; M29 S365 à S377 ; M30 S378 à S390",
+      "target": "Transcription intégrale avec section centrale et reprise.",
+      "level": "Avancé."
+    },
+    {
+      "number": 66,
+      "title": "La Campanella",
+      "info": "Franz Liszt S 141 n° 3 d’après Paganini  •  Instrument imposé par la transcription  •  M31 S391 à S403 ; M32 S404 à S416",
+      "target": "Transcription guitare annoncée et auditée ; intégralité à vérifier.",
+      "level": "Très variable et potentiellement virtuose."
+    }
+  ];
