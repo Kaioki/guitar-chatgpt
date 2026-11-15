@@ -1,6 +1,6 @@
 import fs from "node:fs";
 const p = "app/page.tsx";
-let source = fs.readFileSync(p,"utf8");
+let source = fs.readFileSync(p,"utf8").replace("55 nouveaux titres et 2 morceaux déjà abordés","56 nouveaux titres et 2 morceaux déjà abordés");
 const replacement = `const standardJourneys = [
  { standard: "Guitare classique", start: 14, end: 26, label: "Premiers pas classiques", badge: "Classique", heroLabel: "Tronc commun", summary: "Posture, attaque aux doigts, alternance, lecture en première position et première phrase de Gymnopédie n° 1." },
  { standard: "Premiers morceaux acoustiques", start: 27, end: 52, label: "Construire les fondations", badge: "Acoustique", heroLabel: "Tronc commun", summary: "Accords ouverts, changements fluides, arpèges et arrangements acoustiques complets." },
